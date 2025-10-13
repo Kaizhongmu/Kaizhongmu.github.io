@@ -78,7 +78,8 @@ format:
     css: styles.css
     toc: true
     grid: 
-      sidebar-width: 330px
+      sidebar-width: 400px
+      body-width: 1680px
     code-copy: true
     code-overflow: scroll
     mainfont: lualatex

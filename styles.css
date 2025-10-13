@@ -1,11 +1,117 @@
 /* css styles */
 
+/* 增加页面内容宽度，让布局更宽更自适应 */
+.quarto-title-block {
+  max-width: 100% !important;
+}
+
+.page-columns .content {
+  max-width: 1680px !important;
+  margin: 0 auto;
+}
+
+.page-columns .content-inner {
+  max-width: 1680px !important;
+}
+
+.page-columns .page-columns-content {
+  max-width: 1680px !important;
+}
+
+/* 首页特殊布局优化 */
+.page-columns .page-columns-content .columns {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px;
+}
+
+/* 响应式设计 - 大屏幕 */
+@media screen and (min-width: 1920px) {
+  .page-columns .content,
+  .page-columns .content-inner,
+  .page-columns .page-columns-content {
+    max-width: 1920px !important;
+  }
+}
+
+/* 响应式设计 - 中等屏幕 */
+@media screen and (max-width: 1200px) {
+  .page-columns .content,
+  .page-columns .content-inner,
+  .page-columns .page-columns-content {
+    max-width: 100% !important;
+    padding: 0 20px;
+  }
+}
+
+/* 响应式设计 - 小屏幕时变成上下结构 */
+@media screen and (max-width: 768px) {
+  .columns {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  
+  .column[style*="width: 37%"],
+  .column[style*="width: 63%"] {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
+}
+
 .oval-image {
     border-radius: 50%;
-    height: 220px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     border: 2px solid #CEB888;
+    object-fit: cover;
   }
+
+/* 优化列布局 - 保持左右并排 */
+.columns {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch;
+  min-height: 600px;
+  gap: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 强制移除所有列间距 */
+.columns > .column {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 针对Quarto的列间距覆盖 */
+.columns .column:first-child {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.columns .column:last-child {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 左侧个人信息区域 - 保持原始样式，仅扩宽 */
+.column[style*="width: 37%"] {
+  flex: 0 0 37%;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 右侧内容区域 - 保持原始样式，仅扩宽 */
+.column[style*="width: 63%"] {
+  flex: 0 0 63%;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
 
   .sidebar-item {
     margin-bottom: 10px; /* Adjust the value as needed */
