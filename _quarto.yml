@@ -11,7 +11,7 @@ website:
   open-graph: true
   bread-crumbs: true
   back-to-top-navigation: true
-  site-url: "https://rispace.github.io/" 
+  site-url: "https://kaizhongmu.github.io/" 
   twitter-card: true
   navbar:
     tools-collapse: true
