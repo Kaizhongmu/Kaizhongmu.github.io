@@ -6,7 +6,8 @@
 <img align="center" src='/_assets/images/profile.png' class='oval-image' alt='Profile Picture' style='align-right; margin-left: 2px; margin-bottom: 5px; margin-top: 30px'>  
 
 ## Kaizhong (Mike) Mu
-Sc.M. in Biostatistics 
+Sc.M. in Biostatistics
+</br>
 <a href='https://www.brown.edu/' target='_blank' style='text-decoration:none'>Brown University</a>  
 
 <span style='font-size: 1.1em; font-weight: bold; margin-top: 50px; margin-bottom: 50px;'>Contact</span>  
