@@ -34,28 +34,25 @@ Sc.M. in Biostatistics
 
 ## I am
 <p style="text-align: justify">   
-    I am Statistics and AI enthusiast, which is rooted from my undergrad statistics study with combined both statistics theory and data science technique.
+    I am **Statistics & AI/ML enthusiast**, bridging statistical rigor with data science practice
     </br>
-    I am an independent researcher, who recently transitioned from a research assistant during my master’s studies in biostatistics.
+    I am an **independent researcher**, aiming to develop new AI/ML+Stats methods
     </br>
-    I am from a family of doctors, which sparked my interest in solving real-world biomedical challenge.
+    I am from a **family of doctors**, which sparked my interest in solving real-world biomedical challenge.
     </br>
-    I am a sailor who’s been drifting at sea for a month. 
-    </br>
-    I am a driver who once crossed America after graduation. 
-    </br>
-    I am a thinker who likes to ponder the universe on the toilet. 
-    </br>
-    I am an international student, so mandarin is my 1st language, and statistics is 2nd.
+    I am a **sailor**. I am a **Roadtripper**. I am a **thinker**. I am ……. 
 </p>
 
 ## I believe
 <p style="text-align: justify">   
-    Statistics and AI are stand in a yin-yang relationship: AI's black-box nature requires statistical theory to increase interpretability, while statistics methodology should embrace data-driven technique to boost practical impact. 
+    **Statistics and AI/ML are stand in a yin-yang relationship:**  
+    *AI's black-box nature requires statistical theory to increase interpretability, while statistics methodology should embrace data-driven technique to boost practical impact.*
     </br>
-    Good researchers should hold themselves to higher standards: must deeply understand the mathematical principles and statistical meaning behind models, stay open to new techniques and theories, quiet devotion to creating something both rigorous.
+    **Good researchers should hold themselves to higher standards:**  
+    *must deeply understand the mathematical principles and statistical meaning behind models, stay open to new techniques and theories, quiet devotion to creating something both rigorous.*
     </br>
-    Nature has much to teach us—about science, about love, about the beauty of simplicity.
+    **Nature has much to teach us:**  
+    *about science, about love, about the beauty of simplicity.*
 </p>  
 
 :::
