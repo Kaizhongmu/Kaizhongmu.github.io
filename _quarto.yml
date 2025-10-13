@@ -16,7 +16,7 @@ website:
   navbar:
     tools-collapse: true
     pinned: true
-    logo: "/_assets/images/fsu-logo.png"
+    logo: "/_assets/images/brown-logo.png"
     logo-alt: "Brown University"
     logo-href: index.qmd
     right:
