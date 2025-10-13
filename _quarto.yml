@@ -39,10 +39,10 @@ website:
           - text: "Other Blogs"
             href: blog.qmd
       - icon: linkedin
-        href: https://www.linkedin.com/in/mohammad-rafiqul-islam/
+        href: https://www.linkedin.com/in/mikemu123/
         target: _blank
       - icon: github
-        href: "https://github.com/rispace"
+        href: "https://github.com/Kaizhongmu"
         target: _blank
       
       
