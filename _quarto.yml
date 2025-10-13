@@ -6,7 +6,7 @@ project:
 
 website:
   page-navigation: true
-  title: "Mohammad Rafiqul Islam"
+  title: "Kaizhong (Mike) Mu"
   favicon: "/_assets/images/favicon.ico"
   open-graph: true
   bread-crumbs: true
@@ -17,7 +17,7 @@ website:
     tools-collapse: true
     pinned: true
     logo: "/_assets/images/fsu-logo.png"
-    logo-alt: "Florida State University"
+    logo-alt: "Brown University"
     logo-href: index.qmd
     right:
       - href: index.qmd
@@ -28,16 +28,6 @@ website:
         text: Portfolio
       - href: cv.qmd
         text: CV
-      - text: Blog
-        menu: 
-          - text: "Data Science and Machine Learning"
-            href: https://rispace.github.io/dsandml/
-          - text: "Data Structure and Algorithm"
-            href: https://rispace.github.io/letscode/
-          - text: "Statistics and Probability"
-            href: https://rispace.github.io/statandprob/
-          - text: "Other Blogs"
-            href: blog.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/mikemu123/
         target: _blank
@@ -51,7 +41,7 @@ website:
     background: "#782F40"
     left: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
     center:
-      - text: "Copyright 2024 @ Rafiq Islam"
+      - text: "Copyright 2025 @ Kaizhong (Mike) Mu"
       - text: "License"
         href: license.txt
     right: 
