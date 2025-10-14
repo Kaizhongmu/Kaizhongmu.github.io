@@ -137,34 +137,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-tandp .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-tandp'] = new List('listing-tandp', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Z5NP67GHFC"></script>
 
@@ -464,9 +436,17 @@ window.Quarto = {
    
   <ul>
   <li><a href="#current-research" id="toc-current-research" class="nav-link active" data-scroll-target="#current-research">Current Research</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#course-projects" id="toc-course-projects" class="nav-link" data-scroll-target="#course-projects">Course Projects</a></li>
-  <li><a href="#talks-and-presentations" id="toc-talks-and-presentations" class="nav-link" data-scroll-target="#talks-and-presentations">Talks and Presentations</a></li>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a>
+  <ul class="collapse">
+  <li><a href="#an-inherent-bayesian-rnn-method-for-mnar-longitudinal-data" id="toc-an-inherent-bayesian-rnn-method-for-mnar-longitudinal-data" class="nav-link" data-scroll-target="#an-inherent-bayesian-rnn-method-for-mnar-longitudinal-data">An Inherent Bayesian RNN Method for MNAR Longitudinal Data</a></li>
+  <li><a href="#a-bayesian-cognitive-change-method-for-mnar-longitudinal-data" id="toc-a-bayesian-cognitive-change-method-for-mnar-longitudinal-data" class="nav-link" data-scroll-target="#a-bayesian-cognitive-change-method-for-mnar-longitudinal-data">A Bayesian Cognitive Change Method for MNAR Longitudinal Data</a></li>
+  <li><a href="#nonlinear-mixed-effect-model-for-alzheimers-disease-biomarker" id="toc-nonlinear-mixed-effect-model-for-alzheimers-disease-biomarker" class="nav-link" data-scroll-target="#nonlinear-mixed-effect-model-for-alzheimers-disease-biomarker">Nonlinear Mixed Effect Model for Alzheimer’s Disease Biomarker</a></li>
+  <li><a href="#translational-medical-research-collaboration" id="toc-translational-medical-research-collaboration" class="nav-link" data-scroll-target="#translational-medical-research-collaboration">Translational Medical Research Collaboration</a></li>
+  <li><a href="#health-data-science-summer-fellowship-program" id="toc-health-data-science-summer-fellowship-program" class="nav-link" data-scroll-target="#health-data-science-summer-fellowship-program">Health Data Science Summer Fellowship Program</a></li>
+  <li><a href="#comparative-analysis-of-machine-learning-models-for-unemployment-prediction" id="toc-comparative-analysis-of-machine-learning-models-for-unemployment-prediction" class="nav-link" data-scroll-target="#comparative-analysis-of-machine-learning-models-for-unemployment-prediction">Comparative Analysis of Machine Learning Models for Unemployment Prediction</a></li>
+  <li><a href="#graph-based-change-point-detection-method-for-high-dimensional-network-data" id="toc-graph-based-change-point-detection-method-for-high-dimensional-network-data" class="nav-link" data-scroll-target="#graph-based-change-point-detection-method-for-high-dimensional-network-data">Graph-Based Change-Point Detection Method for High-Dimensional Network Data</a></li>
+  </ul></li>
+  <li><a href="#presentations-and-conferences" id="toc-presentations-and-conferences" class="nav-link" data-scroll-target="#presentations-and-conferences">Presentations and Conferences</a></li>
   </ul>
 </nav>
 </nav>
@@ -486,7 +466,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="current-research">Current Research</h2>
 <div id="listing-phdrs" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="QmF5ZXNpYW4lMjBJbmZlcmVuY2UlMkNTYW1wbGluZyUyQ01DTUMlMkNUaGVvcmV0aWNhbCUyME1hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760451706336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
+<div class="g-col-1" data-index="0" data-categories="QmF5ZXNpYW4lMjBJbmZlcmVuY2UlMkNTYW1wbGluZyUyQ01DTUMlMkNUaGVvcmV0aWNhbCUyME1hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760455379898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
 <a href="./research/ai/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -507,7 +487,7 @@ Oct 14, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TG9uZ2l0dWRpbmFsJTIwRGF0YSUyQ01pc3NpbmclMjBEYXRhJTJDUmFuZG9tJTIwRWZmZWN0cyUyQ05vbmxpbmVhcml0eSUyQ0hldGVyb2dlbmVpdHklMkNTdXJ2aXZhbCUyMEFuYWx5c2lz" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760451706337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="g-col-1" data-index="1" data-categories="TG9uZ2l0dWRpbmFsJTIwRGF0YSUyQ01pc3NpbmclMjBEYXRhJTJDUmFuZG9tJTIwRWZmZWN0cyUyQ05vbmxpbmVhcml0eSUyQ0hldGVyb2dlbmVpdHklMkNTdXJ2aXZhbCUyMEFuYWx5c2lz" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760455379901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
 <a href="./research/longitudinal/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -528,7 +508,7 @@ Oct 14, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R3JhcGglMjBUaGVvcnklMkNOZXR3b3JrJTIwRGF0YSUyQ0ltYWdpbmclMkNPbWljcyUyQ0NoYW5nZS1Qb2ludCUyMERldGVjdGlvbg==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760451706336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="g-col-1" data-index="2" data-categories="R3JhcGglMjBUaGVvcnklMkNOZXR3b3JrJTIwRGF0YSUyQ0ltYWdpbmclMkNPbWljcyUyQ0NoYW5nZS1Qb2ludCUyMERldGVjdGlvbg==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760455379900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
 <a href="./research/graph_theory/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -549,7 +529,7 @@ Oct 14, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="QmF5ZXNpYW4lMjBJbmZlcmVuY2UlMkNTYW1wbGluZyUyQ01DTUMlMkNUaGVvcmV0aWNhbCUyME1hY2hpbmUlMjBMZWFybmluZyUyQ0RlZXAlMjBMZWFybmluZw==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760451706336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
+<div class="g-col-1" data-index="3" data-categories="QmF5ZXNpYW4lMjBJbmZlcmVuY2UlMkNTYW1wbGluZyUyQ01DTUMlMkNUaGVvcmV0aWNhbCUyME1hY2hpbmUlMjBMZWFybmluZyUyQ0RlZXAlMjBMZWFybmluZw==" data-listing-date-sort="1760400000000" data-listing-file-modified-sort="1760455379898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
 <a href="./research/MNAR/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -574,39 +554,115 @@ Oct 14, 2025
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<section id="research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
+<section id="an-inherent-bayesian-rnn-method-for-mnar-longitudinal-data" class="level3">
+<h3 class="anchored" data-anchor-id="an-inherent-bayesian-rnn-method-for-mnar-longitudinal-data">An Inherent Bayesian RNN Method for MNAR Longitudinal Data</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Ani Eloyan<br>
+<strong>Duration:</strong> 09/25 – Present</p>
 <ul>
-<li><a href="./research/extrasgld/index.qmd" target="_blank" style="text-decoration:none">Generalized EXTRA stochastic gradient Langevin dynamics</a><br>
-Mert, Gurbuzbalaban; Islam, Mohammad Rafiqul; Wang, Xiaoyu; Zhu, Lingjiong (2024) “Generalized EXTRA stochastic gradient Langevin dynamics.” <em>arXiv preprint arXiv.2412.01993</em></li>
-<li><a href="./publication/pub2/index.html" target="_blank" style="text-decoration:none">GJR-GARCH Volatility Modeling under NIG and ANN for Predicting Top Cryptocurrencies </a><br>
-Mostafa, F; Saha, P; Islam, Mohammad R.; Nguyen, N. (2020) “GJR-GARCH Volatility Modeling under NIG and ANN for Predicting Top Cryptocurrencies.” <em>Journal of Risk and Financial Management</em>.</li>
-<li><a href="./publication/pub1/index.html" target="_blank" style="text-decoration:none">Comparison of Financial Models for Stock Price Prediction </a><br>
-Islam, Mohammad R.; Nguyen, N. (2020) “Comparison of financial models for stock price prediction.” <em>Journal of Risk and Financial Management</em>.</li>
+<li>This thesis project further extends Project 2, by relaxing two assumptions—linear relationship and constant practical effect—and by generalizing the SRB framework from single to multiple follow-ups longitudinal study</li>
+<li>Developed a novel RNN algorithm by introducing Bayesian Inference into redesigned loss function and optimization strategy, enabling the model to inherently handle missing-not-at-random data without prior imputation.</li>
+<li>To be presented as a poster at Brown University in April 2026.</li>
 </ul>
 </section>
-<section id="course-projects" class="level2">
-<h2 class="anchored" data-anchor-id="course-projects">Course Projects</h2>
+<section id="a-bayesian-cognitive-change-method-for-mnar-longitudinal-data" class="level3">
+<h3 class="anchored" data-anchor-id="a-bayesian-cognitive-change-method-for-mnar-longitudinal-data">A Bayesian Cognitive Change Method for MNAR Longitudinal Data</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Ani Eloyan<br>
+<strong>Duration:</strong> 01/25 – Present</p>
 <ul>
-<li><p><a href="https://www.academia.edu/103433771/Option_pricing_techniques_A_performance_based_comparative_study_of_the_randomized_quasi_Monte_Carlo_method_and_Fourier_cosine_method" target="_blank" style="text-decoration:none">Option pricing techniques: A performance-based comparative study of the randomized quasi-Monte Carlo method and Fourier cosine method</a><br>
-Advisor: <a href="https://www.math.fsu.edu/~okten/" target="_blank" style="text-decoration:none">Prof.&nbsp;Giray Ökten</a></p>
-<div style="text-align:justify">
-<p>Pricing financial derivatives such as options with desired accuracy can be hard due to the nature of the functions and complicated integrals required by the pricing techniques. In this paper we investigate the pricing methodology of the European style options using two advanced numerical methods, namely, Quasi-Monte Carlo and Fourier Cosine (COS). For the RQMC method, we use the random-start Halton sequence. We use the Black-Scholes-Merton model to measure the pricing quality of both of the methods. For the numerical results we compute the option price of the call option and we found a few reasons to prefer the RQMC method over the COS method to approximate the European style options.</p>
-</div></li>
-<li><p><a href="https://www.academia.edu/37973800/The_Relationship_Between_Forced_Sexual_Activities_And_Suicidal_Attempts_Of_The_Victims" target="_blank" style="text-decoration:none">The Relationship Between Forced Sexual Activities And Suicidal Attempts Of The Victims</a><br>
-Advisor: <a href="https://ysu.edu/people/andy-chang" target="_blank" style="text-decoration:none">Dr.&nbsp;Andy Chang</a></p>
-<div style="text-align: justify">
-<p>In project, we apply data-analytic methods to further explore the relationship between forced sexual activities and suicidal behavior among adolescents in the United States. Our findings build on existing literature that explores this relationship. The sample of the study was taken from the Youth Risk Behavior Surveillance System survey 2017. We used a chi-squared test to find the association of forced sexual activities and suicidal behavior, and we found a strong association. Then we used bi-variate logistic regression analysis to ascertain the association of race, age, sex, and education with suicidal attempts after experiencing forced sexual activity (sexual assault). The results of the following paper provide greater insight into the relationship between forced sexual activities and suicide attempts by the adolescents.</p>
-</div></li>
-<li><p><a href="https://www.academia.edu/13322836/Study_of_Runge_Kutta_Method_of_Higher_orders_and_its_Applications" target="_blank" style="text-decoration:none">Study of Runge-Kutta Method of Higher orders and its Applications</a><br>
-Advisor: <a href="http://appliedmath.du.ac.bd/details-ofdr-md-abdus-samad/" target="_blank" style="text-decoration:none">Dr.&nbsp;Md. Abdus Samad </a></p>
-<div style="text-align: justify">
-<p>This project is concerned with the study on Runge-Kutta method to apply on different order of differential equation and solve different types of problem such as initial value problem and boundary value problem in ordinary differential equation. At first we discuss about the definition and generation of differential equation specially based on partial differential equation and then definition of Runge-kutta method and the derivation of midpoint method and the formula of Runge-Kutta metod of fourth order and sixth order. We also write FORTRAN 90/95 program for different order of Runge-Kutta methods. We have solved some examples of fourth order R-K method and sixth order R-K method to get the application of R-K method. We also compared the solution of R-K method with exact solution for different step sizes. Then we have given simultaneous first order differential equation and second order differential equation and then solved them by fourth order Runge-Kutta method. At last we have discussed the boundary value problem which we have solved by fourth and sixth order R-K method. After that we have written the algorithm of shooting method and showed computer results with the difference between two answer along with percentages of error.</p>
-</div></li>
+<li>Designed simulation study &amp; R Shiny App that evaluate SRB method underestimates cognitive change in Severe dementia whose follow-ups censored at floor of NACC test battery in Longitudinal EOAD Study (LEADs)</li>
+<li>Developed SRB-extended method by introducing Bayesian Inference in treating missingness as random variable through a selection model-based likelihood.</li>
+<li>Realized the proposed method through MCMC (HM algorithm), with R stan code developed in supplement materials</li>
+<li>Designed simulation study &amp; Applied in LEADs Data that demonstrate the proposed method reduce the underestimation while preserved the interpretability aspect of the SRB index and offered credible intervals for uncertainty quantified</li>
+<li>Resulted in a manuscript under submission to “Alzheimer’s &amp; Dementia Journal” and presentations at three conferences.</li>
 </ul>
 </section>
-<section id="talks-and-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="talks-and-presentations">Talks and Presentations</h2>
+<section id="nonlinear-mixed-effect-model-for-alzheimers-disease-biomarker" class="level3">
+<h3 class="anchored" data-anchor-id="nonlinear-mixed-effect-model-for-alzheimers-disease-biomarker">Nonlinear Mixed Effect Model for Alzheimer’s Disease Biomarker</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Ani Eloyan<br>
+<strong>Duration:</strong> 09/24 – 12/24</p>
+<ul>
+<li>Conducted literature reviews on vivo Alzheimer’s disease imaging biomarker (tau-PET, WMH in MRI) and Spline modeling techniques (B-spline, Natural-spline, penalized-spline)</li>
+<li>Constructed a P-spline design matrix based on cubic B-spline basis function within mixed-effects framework to model the nonlinear increment of White Matter Hyperintensities (WMH) volume in longitudinal MRI data.</li>
+</ul>
+</section>
+<section id="translational-medical-research-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="translational-medical-research-collaboration">Translational Medical Research Collaboration</h3>
+<p><strong>Collaborator:</strong> Dr.&nbsp;Dinara Ryspayeva, Dr.&nbsp;Attila Seyhan. Legorreta Cancer Center<br>
+<strong>Duration:</strong> 03/25 – 09/25</p>
+<ul>
+<li>Led and conducted a full pipeline of statistical analyses for breast cancer miRNA biomarker discovery —including missing data imputation, survival data collection guidance, survival analysis.</li>
+<li>Identified MAR assumption via sensitivity analyses and applied conditional mean imputation for missing data</li>
+<li>Built Cox regression model to evaluate the predictive associations of miR-34a, miR-137, miR-373, miR-124a, and miR-155 with overall survival, taking account for both biological interpretability (up/down regulation, interactions) and statistical rigor (PH assumption, multicollinearity, influential point).</li>
+<li>Resulted in a manuscript currently under submission to “World Journal of Clinical Oncology”</li>
+</ul>
+</section>
+<section id="health-data-science-summer-fellowship-program" class="level3">
+<h3 class="anchored" data-anchor-id="health-data-science-summer-fellowship-program">Health Data Science Summer Fellowship Program</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Alyssa Bilinski<br>
+<strong>Duration:</strong> 06/25 – 08/25</p>
+<ul>
+<li>Received training in data tidying in R, visualization in Tableau, data management in SQL, and causal inference.</li>
+<li>Applied Large Language Model (LLMs) (OpenAI) for free-text classification of public response to private equity, aiming to evaluate and improve prompt effectiveness in domain-specific text understanding.</li>
+<li>Built an automated evaluation pipeline and interactive Shiny App to benchmark AI annotations against human ground truth.</li>
+<li>Resulted in oral presentation to program faculty and fellows at the final symposium.</li>
+</ul>
+</section>
+<section id="comparative-analysis-of-machine-learning-models-for-unemployment-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="comparative-analysis-of-machine-learning-models-for-unemployment-prediction">Comparative Analysis of Machine Learning Models for Unemployment Prediction</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Colin Cameron<br>
+<strong>Duration:</strong> 12/22 – 03/23</p>
+<ul>
+<li>Collected and managed unemployment related data through APIs, web scraping (BeautifulSoup) in Python</li>
+<li>Implemented and Compared multiple regression models, including OLS, LASSO, and a novel dimension-reduced local weighted regression applying PCA, for unemployment rate prediction.</li>
+<li>Evaluated and visualized model results in Stata and RStudio, using key metrics like Mean Squared Error (MSE), Mean Absolute Deviation (MAD), and R-squared, accuracy, and efficiency.</li>
+</ul>
+</section>
+<section id="graph-based-change-point-detection-method-for-high-dimensional-network-data" class="level3">
+<h3 class="anchored" data-anchor-id="graph-based-change-point-detection-method-for-high-dimensional-network-data">Graph-Based Change-Point Detection Method for High-Dimensional Network Data</h3>
+<p><strong>Advisor:</strong> Dr.&nbsp;Hao Chen, Assoc. Prof.&nbsp;of Statistics, UCD<br>
+<strong>Duration:</strong> 09/22 – 01/23</p>
+<ul>
+<li>Conducted literature reviews on graph theory and graph models (Stochastic Block Models, Erdős–Rényi graphs and Configuration Model)</li>
+<li>Refined gSeg R-package, implementing a combination of Image Analysis and SCAN statistics test in detecting change-point in dynamic social networks, while optimizing the algorithms for computational efficiency and scalability</li>
+<li>Designed and conducted simulation studies in R to evaluate the predictive performance of the proposed method against conventional approaches, across different levels of graph sparsity, edge density, and network connectivity</li>
+</ul>
+</section>
+</section>
+<section id="presentations-and-conferences" class="level2">
+<h2 class="anchored" data-anchor-id="presentations-and-conferences">Presentations and Conferences</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 37%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Conference</th>
+<th>Talk &amp; Award</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jun 9-11, 2025</td>
+<td>Southern Regional Council On Statistics (SRCOS)</td>
+<td>Poster presentation &amp; Boyd Harshburger Travel Award Winner</td>
+</tr>
+<tr class="even">
+<td>Aug 14-16, 2025</td>
+<td>Statistics in Pharmaceuticals (SIP)</td>
+<td>Poster presentation</td>
+</tr>
+<tr class="odd">
+<td>Oct 10, 2025</td>
+<td>ASA NJ Statistics Workshop 2025</td>
+<td>Poster presentation</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -614,57 +670,7 @@ Advisor: <a href="http://appliedmath.du.ac.bd/details-ofdr-md-abdus-samad/" targ
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-tandp">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1700438400000" data-listing-file-modified-sort="1760451706338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210" data-listing-title-sort="The Heavy-Tail Phenomenon in Decentralized Stochastic Gradient Descent" data-listing-filename-sort="2023-11-20-candi.qmd">
-<td>
-<span class="listing-date">Nov 20, 2023</span>
-</td>
-<td>
-<a href="./talks/2023-11-20-candi.html" class="title listing-title">The Heavy-Tail Phenomenon in Decentralized Stochastic Gradient Descent</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1696464000000" data-listing-file-modified-sort="1760451706337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="Decentralized Stochastic Gradient Langevin Dynamics andHamiltonian Monte Carlo" data-listing-filename-sort="2023-10-05-st-op.qmd">
-<td>
-<span class="listing-date">Oct 5, 2023</span>
-</td>
-<td>
-<a href="./talks/2023-10-05-st-op.html" class="title listing-title">Decentralized Stochastic Gradient Langevin Dynamics andHamiltonian Monte Carlo</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1588032000000" data-listing-file-modified-sort="1760451706337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="Sensitivity analysis for Monte Carlo and Quasi Monte Carlo option pricing" data-listing-filename-sort="2020-04-26-project.qmd">
-<td>
-<span class="listing-date">Apr 28, 2020</span>
-</td>
-<td>
-<a href="./talks/2020-04-26-project.html" class="title listing-title">Sensitivity analysis for Monte Carlo and Quasi Monte Carlo option pricing</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -1139,55 +1145,84 @@ Title
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    image-lazy-loading: true</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    fields: [title, image, author,date]</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    sort: "date desc"</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: tandp</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: "/talks/"</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">    type: table</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">    sort: "date desc"</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">    filter-ui: false</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">    sort-ui: false</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">    fields: [date,title]</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">---</span>  </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> async src</span><span class="op">=</span><span class="st">"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ot">     crossorigin</span><span class="op">=</span><span class="st">"anonymous"</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span>  </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">---</span>  </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> async src</span><span class="op">=</span><span class="st">"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ot">     crossorigin</span><span class="op">=</span><span class="st">"anonymous"</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span>  </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Current Research  </span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>::: {#phdrs}</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Research Projects</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">## Current Research  </span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>::: {#phdrs}</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publications</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/research/extrasgld/index.qmd"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Generalized EXTRA stochastic gradient Langevin dynamics<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  Mert, Gurbuzbalaban; Islam, Mohammad Rafiqul; Wang, Xiaoyu; Zhu, Lingjiong  (2024) "Generalized EXTRA stochastic gradient Langevin dynamics." *arXiv preprint arXiv.2412.01993*</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/publication/pub2/index.qmd"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>GJR-GARCH Volatility Modeling under NIG and ANN for Predicting Top Cryptocurrencies <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  Mostafa, F; Saha, P; Islam, Mohammad R.; Nguyen, N. (2020) "GJR-GARCH Volatility Modeling under NIG and ANN for Predicting Top Cryptocurrencies." *Journal of Risk and Financial Management*.</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/publication/pub1/index.qmd"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Comparison of Financial Models for Stock Price Prediction <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  Islam, Mohammad R.; Nguyen, N. (2020) "Comparison of financial models for stock price prediction." *Journal of Risk and Financial Management*. </span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Projects  </span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://www.academia.edu/103433771/Option_pricing_techniques_A_performance_based_comparative_study_of_the_randomized_quasi_Monte_Carlo_method_and_Fourier_cosine_method"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Option pricing techniques: A performance-based comparative study of the randomized quasi-Monte Carlo method and Fourier cosine method<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  Advisor: <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://www.math.fsu.edu/~okten/"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Prof. Giray Ökten<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-align:justify"</span><span class="dt">&gt;</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    Pricing financial derivatives such as options with desired accuracy can be hard due to the nature of the functions and complicated integrals required by the pricing techniques. In this paper we investigate the pricing methodology of the European style options using two advanced numerical methods, namely, Quasi-Monte Carlo and Fourier Cosine (COS). For the RQMC method, we use the random-start Halton sequence. We use the Black-Scholes-Merton model to measure the pricing quality of both of the methods. For the numerical results we compute the option price of the call option and we found a few reasons to prefer the RQMC method over the COS method to approximate the European style options.</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://www.academia.edu/37973800/The_Relationship_Between_Forced_Sexual_Activities_And_Suicidal_Attempts_Of_The_Victims"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>The Relationship Between Forced Sexual Activities And Suicidal Attempts Of The Victims<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  Advisor: <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://ysu.edu/people/andy-chang"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Dr. Andy Chang<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-align: justify"</span><span class="dt">&gt;</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    In project, we apply data-analytic methods to further explore the relationship between forced sexual activities and suicidal behavior among adolescents in the United States. Our findings build on existing literature that explores this relationship. The sample of the study was taken from the Youth Risk Behavior Surveillance System survey 2017. We used a chi-squared test to find the association of forced sexual activities and suicidal behavior, and we found a strong association. Then we used bi-variate logistic regression analysis to ascertain the association of race, age, sex, and education with suicidal attempts after experiencing forced sexual activity (sexual assault). The results of the following paper provide greater insight into the relationship between forced sexual activities and suicide attempts by the adolescents.</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://www.academia.edu/13322836/Study_of_Runge_Kutta_Method_of_Higher_orders_and_its_Applications"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Study of Runge-Kutta Method of Higher orders and its Applications<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span>  </span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>  Advisor: <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"http://appliedmath.du.ac.bd/details-ofdr-md-abdus-samad/"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-decoration:none"</span><span class="dt">&gt;</span>Dr. Md. Abdus Samad <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-align: justify"</span><span class="dt">&gt;</span></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    This project is concerned with the study on Runge-Kutta method to apply on different order of differential equation and solve different types of problem such as initial value problem and boundary value problem in ordinary differential equation. At first we discuss about the definition and generation of differential equation specially based on partial differential equation and then definition of Runge-kutta method and the derivation of midpoint method and the formula of Runge-Kutta metod of fourth order and sixth order. We also write FORTRAN 90/95 program for different order of Runge-Kutta methods. We have solved some examples of fourth order R-K method and sixth order R-K method to get the application of R-K method. We also compared the solution of R-K method with exact solution for different step sizes. Then we have given simultaneous first order differential equation and second order differential equation and then solved them by fourth order Runge-Kutta method. At last we have discussed the boundary value problem which we have solved by fourth and sixth order R-K method. After that we have written the algorithm of shooting method and showed computer results with the difference between two answer along with percentages of error.</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">### An Inherent Bayesian RNN Method for MNAR Longitudinal Data</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Ani Eloyan  </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>**Duration:** 09/25 – Present</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>This thesis project further extends Project 2, by relaxing two assumptions—linear relationship and constant practical effect—and by generalizing the SRB framework from single to multiple follow-ups longitudinal study</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Developed a novel RNN algorithm by introducing Bayesian Inference into redesigned loss function and optimization strategy, enabling the model to inherently handle missing-not-at-random data without prior imputation.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>To be presented as a poster at Brown University in April 2026.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### A Bayesian Cognitive Change Method for MNAR Longitudinal Data</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Ani Eloyan  </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>**Duration:** 01/25 – Present</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Designed simulation study &amp; R Shiny App that evaluate SRB method underestimates cognitive change in Severe dementia whose follow-ups censored at floor of NACC test battery in Longitudinal EOAD Study (LEADs)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Developed SRB-extended method by introducing Bayesian Inference in treating missingness as random variable through a selection model-based likelihood.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Realized the proposed method through MCMC (HM algorithm), with R stan code developed in supplement materials</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Designed simulation study &amp; Applied in LEADs Data that demonstrate the proposed method reduce the underestimation while preserved the interpretability aspect of the SRB index and offered credible intervals for uncertainty quantified</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Resulted in a manuscript under submission to "Alzheimer's &amp; Dementia Journal" and presentations at three conferences.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">### Nonlinear Mixed Effect Model for Alzheimer's Disease Biomarker</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Ani Eloyan  </span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>**Duration:** 09/24 – 12/24</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conducted literature reviews on vivo Alzheimer's disease imaging biomarker (tau-PET, WMH in MRI) and Spline modeling techniques (B-spline, Natural-spline, penalized-spline)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Constructed a P-spline design matrix based on cubic B-spline basis function within mixed-effects framework to model the nonlinear increment of White Matter Hyperintensities (WMH) volume in longitudinal MRI data.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu">### Translational Medical Research Collaboration</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>**Collaborator:** Dr. Dinara Ryspayeva, Dr. Attila Seyhan. Legorreta Cancer Center  </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>**Duration:** 03/25 – 09/25</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Led and conducted a full pipeline of statistical analyses for breast cancer miRNA biomarker discovery —including missing data imputation, survival data collection guidance, survival analysis.</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Identified MAR assumption via sensitivity analyses and applied conditional mean imputation for missing data</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Built Cox regression model to evaluate the predictive associations of miR-34a, miR-137, miR-373, miR-124a, and miR-155 with overall survival, taking account for both biological interpretability (up/down regulation, interactions) and statistical rigor (PH assumption, multicollinearity, influential point).</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Resulted in a manuscript currently under submission to "World Journal of Clinical Oncology"</span>
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## Talks and Presentations  </span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">### Health Data Science Summer Fellowship Program</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Alyssa Bilinski  </span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>**Duration:** 06/25 – 08/25</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Received training in data tidying in R, visualization in Tableau, data management in SQL, and causal inference.</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Applied Large Language Model (LLMs) (OpenAI) for free-text classification of public response to private equity, aiming to evaluate and improve prompt effectiveness in domain-specific text understanding.</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Built an automated evaluation pipeline and interactive Shiny App to benchmark AI annotations against human ground truth.</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Resulted in oral presentation to program faculty and fellows at the final symposium.</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">### Comparative Analysis of Machine Learning Models for Unemployment Prediction</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Colin Cameron  </span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>**Duration:** 12/22 – 03/23</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Collected and managed unemployment related data through APIs, web scraping (BeautifulSoup) in Python</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Implemented and Compared multiple regression models, including OLS, LASSO, and a novel dimension-reduced local weighted regression applying PCA, for unemployment rate prediction.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Evaluated and visualized model results in Stata and RStudio, using key metrics like Mean Squared Error (MSE), Mean Absolute Deviation (MAD), and R-squared, accuracy, and efficiency.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="fu">### Graph-Based Change-Point Detection Method for High-Dimensional Network Data</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>**Advisor:** Dr. Hao Chen, Assoc. Prof. of Statistics, UCD  </span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>**Duration:** 09/22 – 01/23</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conducted literature reviews on graph theory and graph models (Stochastic Block Models, Erdős–Rényi graphs and Configuration Model)</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Refined gSeg R-package, implementing a combination of Image Analysis and SCAN statistics test in detecting change-point in dynamic social networks, while optimizing the algorithms for computational efficiency and scalability</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Designed and conducted simulation studies in R to evaluate the predictive performance of the proposed method against conventional approaches, across different levels of graph sparsity, edge density, and network connectivity</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="fu">## Presentations and Conferences</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Date <span class="pp">|</span> Conference <span class="pp">|</span> Talk &amp; Award <span class="pp">|</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="pp">|------|------------|--------------|</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Jun 9-11, 2025 <span class="pp">|</span> Southern Regional Council On Statistics (SRCOS) <span class="pp">|</span> Poster presentation &amp; Boyd Harshburger Travel Award Winner <span class="pp">|</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Aug 14-16, 2025 <span class="pp">|</span> Statistics in Pharmaceuticals (SIP) <span class="pp">|</span> Poster presentation <span class="pp">|</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Oct 10, 2025 <span class="pp">|</span> ASA NJ Statistics Workshop 2025 <span class="pp">|</span> Poster presentation <span class="pp">|</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

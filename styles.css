@@ -196,6 +196,65 @@ pre {
   margin-top: 20px;
 }
 
+/* PDF Viewer Styles - Override Quarto's width restrictions */
+.pdf-viewer-container {
+  width: 60vw !important; /* Use viewport width instead of percentage */
+  margin: 0 auto !important;
+  max-width: none !important; /* Remove max-width restrictions */
+  position: relative;
+  z-index: 10;
+}
+
+.pdf-viewer-container iframe {
+  width: 100% !important;
+  height: 80vh !important; /* Use viewport height */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-height: 600px;
+}
+
+/* Override Quarto's content width restrictions for CV page */
+body:has(.pdf-viewer-container) .page-columns .content,
+body:has(.pdf-viewer-container) .page-columns .content-inner,
+body:has(.pdf-viewer-container) .page-columns .page-columns-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Force full width for CV page content */
+.cv-page .page-columns .content,
+.cv-page .page-columns .content-inner,
+.cv-page .page-columns .page-columns-content,
+.cv-page .quarto-title-block {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px !important;
+}
+
+/* Ensure title appears above PDF viewer */
+.cv-page .quarto-title-block {
+  margin-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.cv-page .quarto-title-block .quarto-title-meta {
+  margin-bottom: 20px !important;
+}
+
+/* Responsive PDF Viewer */
+@media screen and (max-width: 768px) {
+  .pdf-viewer-container {
+    width: 95vw !important;
+    margin: 0 auto !important;
+  }
+  
+  .pdf-viewer-container iframe {
+    height: 70vh !important;
+    min-height: 500px;
+  }
+}
+
 
 .arxiv-button, .mdpi-button {
   display: inline-flex;
