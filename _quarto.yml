@@ -26,6 +26,12 @@ website:
         text: Research
       - href: portfolio.qmd
         text: Portfolio
+      - href: CourseAndAward.qmd
+        text: Course & Award
+      - href: AwardAndHonor.qmd
+        text: Award & Honor
+      - href: Life.qmd
+        text: Life
       - href: cv.qmd
         text: CV
       - icon: linkedin

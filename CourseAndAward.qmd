@@ -1,0 +1,36 @@
+---
+title: Course&Award
+excerpt: My Course & Award
+date: 2025-10-14
+published-title: Course & Award last updated
+---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"
+     crossorigin="anonymous"></script>
+
+## Course & Award
+
+- [Bayesian Inference](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201420&subj_code_in=PHP&crse_numb_in=2530)
+- [Analysis of Lifetime Data](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201510&subj_code_in=PHP&crse_numb_in=2602)
+- [Casual Inference and Missing Data](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201610&subj_code_in=PHP&crse_numb_in=2610)
+- [Multivariate Data Analysis](https://statistics.ucdavis.edu/expanded-descriptions/135)
+- [Categorical Data Analysis](https://catalog.ucdavis.edu/courses-subject-code/sta/)
+- [Time Series Analysis](https://statistics.ucdavis.edu/expanded-descriptions/137)
+- [Analysis of Variance](https://statistics.ucdavis.edu/expanded-descriptions/106)
+- [Applied Generalized Linear Models](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201720&subj_code_in=PHP&crse_numb_in=2514)
+- [Regression Analysis](https://statistics.ucdavis.edu/expanded-descriptions/108)
+- [Practical Data Analysis](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201510&subj_code_in=PHP&crse_numb_in=2550)
+- [Analysis of Economic Data](https://cameron.econ.ucdavis.edu/e102/e102.html)
+- [Game Theory](https://economics.ucdavis.edu/economics-122-game-theory)
+- [Introduction to Biology](https://catalog.ucdavis.edu/courses-subject-code/bis/)
+- [Fundamentals of Probability & Statistical Inference](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201510&subj_code_in=PHP&crse_numb_in=2515)
+- [Mathematical Statistics 2](https://statistics.ucdavis.edu/expanded-descriptions/130B)
+- [Mathematical Statistics 1](https://statistics.ucdavis.edu/expanded-descriptions/130A)
+- [Linear Algebra](https://catalog.ucdavis.edu/courses-subject-code/mat/)
+- [Calculus 1, 2, 3](https://catalog.ucdavis.edu/courses-subject-code/mat/)
+- [Statistical Learning and Big Data](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201620&subj_code_in=PHP&crse_numb_in=2650)
+- [Fundamentals of Statistical Data Science (R)](https://statistics.ucdavis.edu/expanded-descriptions/141A)
+- [Statistical Programming with R](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201720&subj_code_in=PHP&crse_numb_in=2560)
+- [Data & Web Technologies for Data Analysis (Python)](https://statistics.ucdavis.edu/expanded-descriptions/141B)
+- [Python Programming](https://cs.ucdavis.edu/schedules-classes/ecs-032a-introduction-programming)
+- [MATLAB Programming](https://catalog.ucdavis.edu/courses-subject-code/eng/)

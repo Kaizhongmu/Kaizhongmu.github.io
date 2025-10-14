@@ -1,0 +1,29 @@
+---
+title: "AI & Statistics Integration" 
+categories: [Bayesian Inference, Sampling, MCMC, Theoretical Machine Learning]
+author: 
+  - Kaizhong (Mike) Mu
+date: "10/14/2025"
+image: ai.png
+citation: true
+---  
+
+## Research Philosophy
+
+I'm eager to combine AI/ML with the soul of statistics to tackle the growing complexity of medical data and to create interpretable, practical methods for clinical use.
+
+This interest is rooted in my undergraduate study of Statistics at the University of California, Davis. Its curriculum is thoughtfully designed to cultivate the next generation of statisticians—it not only builds a strong foundation in statistical theory but also introduces modern data science techniques. Within this open, inclusive, and collaborative academic community, I gradually shaped my own voice in statistics—grounded in rigor, yet open to innovation.
+
+## I believe the future lies in integration of AI and Statistics:
+
+### AI needs Stats
+When decisions affect human lives, it's not enough for a model to perform well — its internal logic must be understood, scrutinized, and justified. AI's black-box nature poses challenges in clinical settings. Statistics helps bridge that gap — not just by offering rigor, but by grounding models in interpretability and meaning.
+
+### Stats needs AI
+Statistics shouldn't remain isolated. While understanding variation, mechanisms, causality, and ensuring reproducibility remain core goals, AI's strength in modeling complex patterns from high-dimensional data is worth integrating.
+
+## Related Experience
+
+- **Health Data Science Fellowship**: Applying LLM to free text classification in clinical trial data
+- **Research Project**: An inherent Bayesian RNN Method for MNAR longitudinal Data
+- **Blog**: How AI (CNN) threatens the doctors?
