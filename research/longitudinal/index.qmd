@@ -1,0 +1,26 @@
+---
+title: "Longitudinal Data Analysis Research" 
+categories: [Longitudinal Data, Missing Data, Random Effects, Nonlinearity, Heterogeneity, Survival Analysis]
+author: 
+  - Kaizhong (Mike) Mu
+date: "10/14/2025"
+image: 1.png
+citation: true
+---  
+
+## Research Focus
+
+During my graduate studies, my research has centered on longitudinal data, which sparked my interest in challenges such as missing data, random effects, nonlinearity, heterogeneity, and survival analysis.
+
+## My Story
+
+My interest in time-related data began with my undergraduate time series class. Under the guidance of Dr Colin Cameron, I gave a try of ML in it. What he taught me was not only the knowledge itself, but also the love and purity of academia. After entering the graduate program, under the guidance of Dr Ani Eloyan, I conducted three projects focusing on longitudinal data — still data across time, but slightly different from time series. During this period, I experienced a jump from being a research assistant to an independent researcher. Studying survival analysis, especially martingales in counting processes, gave me a philosophical insight— given a person's past, the best expectation of the future is now. So just live in the present, untroubled by what's ahead and unburdened by what's gone.
+
+## Related Experience
+
+- **Research Project**: A Bayesian Cognitive Change Method for MNAR Longitudinal Data
+- **Research Project**: An inherent Bayesian RNN Method for MNAR longitudinal Data
+- **Research Project**: Nonlinear Mixed Effect model for Alzheimer's Disease Biomarker
+- **Collaboration**: Translational Medical Research collaboration
+- **Research project**: Comparative Analysis of ML Models for Unemployment Prediction
+

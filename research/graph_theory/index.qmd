@@ -1,0 +1,26 @@
+---
+title: "Graph Theory and Network Analysis Research" 
+categories: [Graph Theory, Network Data, Imaging, Omics, Change-Point Detection]
+author: 
+  - Kaizhong (Mike) Mu
+date: "10/14/2025"
+image: 1.png
+citation: true
+---  
+
+## Research Interests
+
+I really enjoy contemplating intricate relationships filled with various correlations, so I'm interested in graph theory and its applications—such as network data, imaging, and omics.
+
+## My Story
+
+I am deeply grateful to Dr. Hao Chen for introducing me to graph theory during my first research project, where it was applied to detect change points in social network data. This experience opened doors to numerous possibilities like I mentioned above. These are all areas I hope to explore further if the opportunity arises.
+
+## Related Experience
+
+- **Research Project**: Non-Parametric Graph-Based Change-Point Detection Method for High-Dimensional Network Data
+
+## Manuscripts
+
+- **miRNA Expression in Breast Cancer Tissue and Plasma Pre- and Post-Neoadjuvant Chemotherapy: Associations with Hormone Receptor Status, Pathologic Response, and Survival**
+- **Reliable Change Estimation Methods for Severely Cognitively Impaired Populations**

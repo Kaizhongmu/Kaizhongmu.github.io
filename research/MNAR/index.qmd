@@ -1,0 +1,23 @@
+---
+title: "An Inherent Bayesian RNN Method for MNAR Longitudinal Data" 
+categories: [Bayesian Inference, Sampling, MCMC, Theoretical Machine Learning, Deep Learning]
+author: 
+  - Kaizhong (Mike) Mu
+date: "10/14/2025"
+image: 1.png
+citation: true
+---  
+
+## Research Interests
+
+I'm drawn to the Bayesian approach to thinking about uncertainty, so its application to biomedical data is of interest to me. I am interested in the MCMC and Variational Inference for large data sets, the use of Bayesian methods in deep learning, the use of Bayesian methods to model heterogeneity. I have an ongoing project integrating Bayesian with RNN in inherently handling missing not at random (MNAR) data. I have a post project extending a cognitive measurement method under the Bayesian framework to handle MNAR.
+
+## My Story
+
+The story of Bayesian statistics and me began with a research project where I encountered a non-identifiability issue using MLE to fit a mixed-effects model. Hearing that Bayesian inference might offer a solution, I enrolled in a Bayesian course and received systematic training—from explicit likelihood to MCMC methods for non-explicit likelihood. As the course was ending, another project of mine reached the stage of developing new methods. Bayesian thinking inspired me to address missing-not-at-random data without imposing the strong assumptions required by the frequentist framework, thereby improving the model's applicability. Building on this, I am now conducting Bayesian inference under an RNN architecture to handle MNAR data. Looking ahead, I hope to explore Bayesian applications in large-scale biomedical data, as I found standard MCMC computation increasingly challenging as data size grew in my last project.
+
+## Related Experience
+
+- **Research Project**: An inherent Bayesian RNN Method for MNAR longitudinal Data
+- **Research Project**: A Bayesian Cognitive Change Method for MNAR Longitudinal Data
+
