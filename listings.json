@@ -152,6 +152,7 @@
   {
     "listing": "/research.html",
     "items": [
+      "/research/ai/index.html",
       "/research/holmc/index.html",
       "/research/rulmc/index.html",
       "/research/extrasgld/index.html",
