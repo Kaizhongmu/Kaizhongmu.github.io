@@ -1145,28 +1145,28 @@
     "href": "ProjectsAndApps.html#projects-apps",
     "title": "",
     "section": "Projects & Apps",
-    "text": "Projects & Apps\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nLLM text classification Shiny App (R)\n\n\n\nFriday, August 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Study Shiny App (R)\n\n\n\nSaturday, March 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects & Apps\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nLLM text classification Shiny App (R)\n\n\n\nFriday, August 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Study Shiny App (R)\n\n\n\nSaturday, March 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nS-I-R epidemiology model Shiny App (R)\n\n\n\nFriday, November 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBattleship Game Project (Python)\n\n\n\nMonday, May 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nGun Violence Visualization Project (Python)\n\n\n\nWednesday, March 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nRental Clustering & Price Prediction Project (R)\n\n\n\nThursday, September 1, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "project/dsp/1/index.html",
     "href": "project/dsp/1/index.html",
     "title": "Simulation Study Shiny App (R)",
     "section": "",
-    "text": "&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/\" target=\"_blank\"&gt;Open SRB Simulation App&lt;/a&gt;\n&lt;/p&gt;\n\nSRB Simulation Study: This Shiny App is designed to show the simulation study results for my second research project under the mentorship of Dr. Ani Eloyan. Our simulation involves multiple parameters (e.g., rate of decline, baseline severity, sample size). Static plots can only capture a few pre-selected scenarios, failing to show the full picture. So, I developed an interactive Shiny app to explore any combination of parameters in real-time.\nProject Details: The detail could check in A Bayesian Cognitive Change Method for Censored Longitudinal Data.\nDirect Link to App"
+    "text": "&lt;&gt; Code"
   },
   {
     "objectID": "project/dsp/1/index.html#shiny-app",
     "href": "project/dsp/1/index.html#shiny-app",
     "title": "Simulation Study Shiny App (R)",
-    "section": "",
-    "text": "&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/\" target=\"_blank\"&gt;Open SRB Simulation App&lt;/a&gt;\n&lt;/p&gt;\n\nSRB Simulation Study: This Shiny App is designed to show the simulation study results for my second research project under the mentorship of Dr. Ani Eloyan. Our simulation involves multiple parameters (e.g., rate of decline, baseline severity, sample size). Static plots can only capture a few pre-selected scenarios, failing to show the full picture. So, I developed an interactive Shiny app to explore any combination of parameters in real-time.\nProject Details: The detail could check in A Bayesian Cognitive Change Method for Censored Longitudinal Data.\nDirect Link to App"
+    "section": "Shiny App",
+    "text": "Shiny App\n\n&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/\" target=\"_blank\"&gt;Open SRB Simulation App&lt;/a&gt;\n&lt;/p&gt;\n\nSRB Simulation Study: This Shiny App is designed to show the simulation study results for my second research project under the mentorship of Dr. Ani Eloyan. Our simulation involves multiple parameters (e.g., rate of decline, baseline severity, sample size). Static plots can only capture a few pre-selected scenarios, failing to show the full picture. So, I developed an interactive Shiny app to explore any combination of parameters in real-time.\nProject Details: The detail could check in A Bayesian Cognitive Change Method for Censored Longitudinal Data.\nDirect Link to App"
   },
   {
     "objectID": "project/dsp/2/index.html",
     "href": "project/dsp/2/index.html",
     "title": "LLM text classification Shiny App (R)",
     "section": "",
-    "text": "&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/\" target=\"_blank\"&gt;Open LLM Text Classification App&lt;/a&gt;\n&lt;/p&gt;"
+    "text": "&lt;&gt; Code"
   },
   {
     "objectID": "project/dsp/2/index.html#objective",
@@ -1228,8 +1228,8 @@
     "objectID": "project/dsp/2/index.html#shiny-app",
     "href": "project/dsp/2/index.html#shiny-app",
     "title": "LLM text classification Shiny App (R)",
-    "section": "",
-    "text": "&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/\" target=\"_blank\"&gt;Open LLM Text Classification App&lt;/a&gt;\n&lt;/p&gt;"
+    "section": "Shiny App",
+    "text": "Shiny App\n\n&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/\" target=\"_blank\"&gt;Open LLM Text Classification App&lt;/a&gt;\n&lt;/p&gt;"
   },
   {
     "objectID": "project/dsp/2/index.html#shiny-app-readme",
@@ -1251,5 +1251,89 @@
     "title": "LLM text classification Shiny App (R)",
     "section": "Presentation",
     "text": "Presentation"
+  },
+  {
+    "objectID": "project/dsp/3/index.html",
+    "href": "project/dsp/3/index.html",
+    "title": "S-I-R epidemiology model Shiny App (R)",
+    "section": "",
+    "text": "&lt;&gt; Code"
+  },
+  {
+    "objectID": "project/dsp/3/index.html#shiny-app",
+    "href": "project/dsp/3/index.html#shiny-app",
+    "title": "S-I-R epidemiology model Shiny App (R)",
+    "section": "Shiny App",
+    "text": "Shiny App\n\n&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"https://depeng.shinyapps.io/R_final_project/\" target=\"_blank\"&gt;Open S-I-R Epidemiology Model App&lt;/a&gt;\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "project/dsp/3/index.html#documentation",
+    "href": "project/dsp/3/index.html#documentation",
+    "title": "S-I-R epidemiology model Shiny App (R)",
+    "section": "Documentation",
+    "text": "Documentation\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"R_final_readme.pdf\" target=\"_blank\"&gt;Download Documentation&lt;/a&gt;\n&lt;/p&gt;\n\nDirect Link to App"
+  },
+  {
+    "objectID": "project/dsp/5/index.html",
+    "href": "project/dsp/5/index.html",
+    "title": "Gun Violence Visualization Project (Python)",
+    "section": "",
+    "text": "&lt;&gt; Code"
+  },
+  {
+    "objectID": "project/dsp/5/index.html#keywords",
+    "href": "project/dsp/5/index.html#keywords",
+    "title": "Gun Violence Visualization Project (Python)",
+    "section": "Keywords",
+    "text": "Keywords\nNLP, interactive map, wordscloud"
+  },
+  {
+    "objectID": "project/dsp/5/index.html#highlight",
+    "href": "project/dsp/5/index.html#highlight",
+    "title": "Gun Violence Visualization Project (Python)",
+    "section": "Highlight",
+    "text": "Highlight\nWe use NLP to analyze gun violence reports to figure out the most common gun models involved in crimes and the most frequent motives behind them."
+  },
+  {
+    "objectID": "project/dsp/4/index.html",
+    "href": "project/dsp/4/index.html",
+    "title": "Rental Clustering & Price Prediction Project (R)",
+    "section": "",
+    "text": "&lt;&gt; Code"
+  },
+  {
+    "objectID": "project/dsp/4/index.html#keywords",
+    "href": "project/dsp/4/index.html#keywords",
+    "title": "Rental Clustering & Price Prediction Project (R)",
+    "section": "Keywords",
+    "text": "Keywords\nPCA, Hierarchical Clustering, Unsupervised Learning, Data Visualization, Variable Selection, Automated program."
+  },
+  {
+    "objectID": "project/dsp/4/index.html#highlight",
+    "href": "project/dsp/4/index.html#highlight",
+    "title": "Rental Clustering & Price Prediction Project (R)",
+    "section": "Highlight",
+    "text": "Highlight\nI designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using supervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property."
+  },
+  {
+    "objectID": "project/dsp/6/index.html",
+    "href": "project/dsp/6/index.html",
+    "title": "Battleship Game Project (Python)",
+    "section": "",
+    "text": "&lt;&gt; Code"
+  },
+  {
+    "objectID": "project/dsp/6/index.html#keywords",
+    "href": "project/dsp/6/index.html#keywords",
+    "title": "Battleship Game Project (Python)",
+    "section": "Keywords",
+    "text": "Keywords\nPython Programming, Battleship Game"
+  },
+  {
+    "objectID": "project/dsp/6/index.html#highlight",
+    "href": "project/dsp/6/index.html#highlight",
+    "title": "Battleship Game Project (Python)",
+    "section": "Highlight",
+    "text": "Highlight\nFor our Python project, we designed a simplified version of the classic Battleship game. In this game, each player has a grid where ships of varying lengths are placed, and players take turns guessing coordinates to try to hit and sink their opponent’s ships. Hits and misses are tracked, and the game continues until one player sinks all of the opponent’s ships. This project showcases our ability to implement game logic, user interaction, and basic grid-based algorithms in Python."
   }
 ]

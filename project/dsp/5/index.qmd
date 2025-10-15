@@ -1,0 +1,26 @@
+---
+title: "Gun Violence Visualization Project (Python)"
+author: "Kaizhong (Mike) Mu"
+date: "March, 2023"
+collection: project
+citation: true
+search: true
+lightbox: true
+image: 5.png
+---  
+
+```{=html}
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/Gun_Violence_Visualization" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+```
+
+## Keywords
+
+NLP, interactive map, wordscloud
+
+## Highlight
+
+We use NLP to analyze gun violence reports to figure out the most common gun models involved in crimes and the most frequent motives behind them.

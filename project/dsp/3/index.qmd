@@ -1,0 +1,42 @@
+---
+title: "S-I-R epidemiology model Shiny App (R)"
+author: "Kaizhong (Mike) Mu"
+date: "Nov, 2024"
+collection: project
+citation: true
+search: true
+lightbox: true
+image: 3.png
+---  
+
+```{=html}
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/SIR_Epidemiology_Model" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+```
+
+## Shiny App
+
+<iframe src="https://depeng.shinyapps.io/R_final_project/" 
+        width="100%" 
+        height="800px" 
+        style="border: 1px solid #ddd; border-radius: 8px;">
+    <p>Your browser does not support iframes. 
+       <a href="https://depeng.shinyapps.io/R_final_project/" target="_blank">Open S-I-R Epidemiology Model App</a>
+    </p>
+</iframe>
+
+## Documentation
+
+<iframe src="R_final_readme.pdf" 
+        width="100%" 
+        height="600px" 
+        style="border: 1px solid #ddd; border-radius: 8px;">
+    <p>Your browser does not support PDFs. 
+       <a href="R_final_readme.pdf" target="_blank">Download Documentation</a>
+    </p>
+</iframe>
+
+[Direct Link to App](https://depeng.shinyapps.io/R_final_project/){target="_blank"}

@@ -21,6 +21,11 @@
 
 
 
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/LLM_Text_Classification_App" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
 <section id="shiny-app" class="level2">
 <h2 class="anchored" data-anchor-id="shiny-app">Shiny App</h2>
 <iframe src="https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
@@ -33,9 +38,9 @@ Your browser does not support iframes. <a href="https://brown-biostatistics-mike
 <h2 class="anchored" data-anchor-id="data-files">Data Files</h2>
 <p>The app requires three data files:</p>
 <ol type="1">
-<li><strong><a href="original_data.csv">Original Data</a></strong></li>
-<li><strong><a href="human_filled_data.csv">Human-Filled Data</a></strong></li>
-<li><strong><a href="gpt_filled_data.csv">GPT-Filled Data</a></strong></li>
+<li><strong><a href="Original Data.xlsx">Original Data</a></strong></li>
+<li><strong><a href="Human-filled Data.xlsx">Human-Filled Data</a></strong></li>
+<li><strong><a href="GPT-filled Data.csv">GPT-Filled Data</a></strong></li>
 </ol>
 </section>
 <section id="shiny-app-readme" class="level2">
@@ -45,12 +50,7 @@ Your browser does not support iframes. <a href="https://brown-biostatistics-mike
 </section>
 <section id="presentation" class="level2">
 <h2 class="anchored" data-anchor-id="presentation">Presentation</h2>
-<iframe src="presentation.pptx" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 8px;">
-<p>
-Your browser does not support PowerPoint files. <a href="presentation.pptx" target="_blank">Download Presentation</a>
-</p>
-</iframe>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=http://localhost:6760/project/dsp/2/presentation.pptx" width="100%" height="600px" frameborder="0">
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://kaizhongmu.github.io/project/dsp/2/presentation.pptx" width="100%" height="600px" frameborder="0">
 </iframe>
 </section>
 <section id="project-overview" class="level2">
@@ -88,6 +88,11 @@ Your browser does not support PowerPoint files. <a href="presentation.pptx" targ
 
 
 
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/SRB_Simulation_App" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
 <section id="shiny-app" class="level2">
 <h2 class="anchored" data-anchor-id="shiny-app">Shiny App</h2>
 <iframe src="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
@@ -118,6 +123,187 @@ Your browser does not support iframes. <a href="https://brown-biostatistics-mike
   <guid>https://kaizhongmu.github.io/project/dsp/1/</guid>
   <pubDate>Fri, 28 Feb 2025 16:00:00 GMT</pubDate>
   <media:content url="https://kaizhongmu.github.io/project/dsp/1/1.png" medium="image" type="image/png" height="113" width="144"/>
+</item>
+<item>
+  <title>S-I-R epidemiology model Shiny App (R)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/3/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/SIR_Epidemiology_Model" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+<section id="shiny-app" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-app">Shiny App</h2>
+<iframe src="https://depeng.shinyapps.io/R_final_project/" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support iframes. <a href="https://depeng.shinyapps.io/R_final_project/" target="_blank">Open S-I-R Epidemiology Model App</a>
+</p>
+</iframe>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<iframe src="R_final_readme.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support PDFs. <a href="R_final_readme.pdf" target="_blank">Download Documentation</a>
+</p>
+</iframe>
+<p><a href="https://depeng.shinyapps.io/R_final_project/" target="_blank">Direct Link to App</a></p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2024,
+  author = {(Mike) Mu, Kaizhong},
+  title = {S-I-R Epidemiology Model {Shiny} {App} {(R)}},
+  date = {2024-11-01},
+  url = {https://kaizhongmu.github.io/project/dsp/3/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2024" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2024. <span>“S-I-R Epidemiology Model Shiny App
+(R).”</span> November 1, 2024. <a href="https://kaizhongmu.github.io/project/dsp/3/">https://kaizhongmu.github.io/project/dsp/3/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/3/</guid>
+  <pubDate>Thu, 31 Oct 2024 16:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/3/3.png" medium="image" type="image/png" height="138" width="144"/>
+</item>
+<item>
+  <title>Battleship Game Project (Python)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/6/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/Battleship_Game_Project" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p>Python Programming, Battleship Game</p>
+</section>
+<section id="highlight" class="level2">
+<h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
+<p>For our Python project, we designed a simplified version of the classic Battleship game. In this game, each player has a grid where ships of varying lengths are placed, and players take turns guessing coordinates to try to hit and sink their opponent’s ships. Hits and misses are tracked, and the game continues until one player sinks all of the opponent’s ships. This project showcases our ability to implement game logic, user interaction, and basic grid-based algorithms in Python.</p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2023,
+  author = {(Mike) Mu, Kaizhong},
+  title = {Battleship {Game} {Project} {(Python)}},
+  date = {2023-05-01},
+  url = {https://kaizhongmu.github.io/project/dsp/6/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2023" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2023. <span>“Battleship Game Project
+(Python).”</span> May 1, 2023. <a href="https://kaizhongmu.github.io/project/dsp/6/">https://kaizhongmu.github.io/project/dsp/6/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/6/</guid>
+  <pubDate>Sun, 30 Apr 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/6/6.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Gun Violence Visualization Project (Python)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/5/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/Gun_Violence_Visualization" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p>NLP, interactive map, wordscloud</p>
+</section>
+<section id="highlight" class="level2">
+<h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
+<p>We use NLP to analyze gun violence reports to figure out the most common gun models involved in crimes and the most frequent motives behind them.</p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2023,
+  author = {(Mike) Mu, Kaizhong},
+  title = {Gun {Violence} {Visualization} {Project} {(Python)}},
+  date = {2023-03-01},
+  url = {https://kaizhongmu.github.io/project/dsp/5/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2023" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2023. <span>“Gun Violence Visualization Project
+(Python).”</span> March 1, 2023. <a href="https://kaizhongmu.github.io/project/dsp/5/">https://kaizhongmu.github.io/project/dsp/5/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/5/</guid>
+  <pubDate>Tue, 28 Feb 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/5/5.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>Rental Clustering &amp; Price Prediction Project (R)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/4/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/Rental_Clustering_Project" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p>PCA, Hierarchical Clustering, Unsupervised Learning, Data Visualization, Variable Selection, Automated program.</p>
+</section>
+<section id="highlight" class="level2">
+<h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
+<p>I designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using supervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property.</p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2022,
+  author = {(Mike) Mu, Kaizhong},
+  title = {Rental {Clustering} \&amp; {Price} {Prediction} {Project} {(R)}},
+  date = {2022-09-01},
+  url = {https://kaizhongmu.github.io/project/dsp/4/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2022" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2022. <span>“Rental Clustering &amp; Price
+Prediction Project (R).”</span> September 1, 2022. <a href="https://kaizhongmu.github.io/project/dsp/4/">https://kaizhongmu.github.io/project/dsp/4/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/4/</guid>
+  <pubDate>Wed, 31 Aug 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/4/4.png" medium="image" type="image/png" height="100" width="144"/>
 </item>
 </channel>
 </rss>

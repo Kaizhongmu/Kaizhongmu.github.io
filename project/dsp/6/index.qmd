@@ -1,0 +1,26 @@
+---
+title: "Battleship Game Project (Python)"
+author: "Kaizhong (Mike) Mu"
+date: "May, 2023"
+collection: project
+citation: true
+search: true
+lightbox: true
+image: 6.png
+---  
+
+```{=html}
+<div style="text-align: right; margin-bottom: 10px;">
+    <a href="https://github.com/Kaizhongmu/Battleship_Game_Project" target="_blank" style="text-decoration: none; color: #fff; background-color: #28a745; border: 1px solid #28a745; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: inline-flex; align-items: center; gap: 4px; font-weight: 500;">
+        <span style="font-size: 12px;">&lt;&gt;</span> Code
+    </a>
+</div>
+```
+
+## Keywords
+
+Python Programming, Battleship Game
+
+## Highlight
+
+For our Python project, we designed a simplified version of the classic Battleship game. In this game, each player has a grid where ships of varying lengths are placed, and players take turns guessing coordinates to try to hit and sink their opponent's ships. Hits and misses are tracked, and the game continues until one player sinks all of the opponent's ships. This project showcases our ability to implement game logic, user interaction, and basic grid-based algorithms in Python.
