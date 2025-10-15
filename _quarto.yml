@@ -24,12 +24,10 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: portfolio.qmd
-        text: Portfolio
+      - href: ProjectsAndApps.qmd
+        text: Projects & Apps
       - href: CourseAndAward.qmd
-        text: Course & Award
-      - href: AwardAndHonor.qmd
-        text: Award & Honor
+        text: Course
       - href: Life.qmd
         text: Life
       - href: cv.qmd

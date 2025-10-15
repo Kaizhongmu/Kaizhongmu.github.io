@@ -13,30 +13,43 @@ listing:
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"
      crossorigin="anonymous"></script>  
 
-## Current Research  
+## Research Interests   
 
 ::: {#phdrs}
 :::
 
-## Research Projects
+## Publications & Manuscripts
 
-### An Inherent Bayesian RNN Method for MNAR Longitudinal Data
+### A Reliable Change Estimation Method for Severely Cognitively Impaired Populations
+**Authors:** Mu, K., Zhang, D., & Eloyan, A.  
+**Status:** Manuscript in preparation for submission to Alzheimer's & Dementia  
+**Role:** First and corresponding author; draft completed July 2025, currently undergoing formatting.
+
+### Longitudinal miRNA Profiles in Breast Cancer Tissue and Plasma: Associations with Hormone Receptors, Response, and Survival
+**Authors:** Ryspayeva, D., Seyhan, A. A., Mu, K., Liu, M., Purcell, C., MacDonald, W. J., Halytskiy, V., Drevytska, T., Inomistova, M., Khranovska, N., Potorocha, O., Taran, L., Sumkina, O., Smolanka, I. Sr., & El-Deiry, W. S.  
+**Journal:** World Journal of Clinical Oncology  
+**Status:** Manuscript submitted October 2025 (Manuscript No. 115287)  
+**Role:** Third author.
+
+## Current & Past Research 
+
+### An Bayesian-based RNN Method for MNAR/MAR + left-censored longitudinal
 **Advisor:** Dr. Ani Eloyan  
 **Duration:** 09/25 – Present
 
-- This thesis project further extends Project 2, by relaxing two assumptions—linear relationship and constant practical effect—and by generalizing the SRB framework from single to multiple follow-ups longitudinal study
-- Developed a novel RNN algorithm by introducing Bayesian Inference into redesigned loss function and optimization strategy, enabling the model to inherently handle missing-not-at-random data without prior imputation.
-- To be presented as a poster at Brown University in April 2026.
+- This thesis extends prior SRB-based work by replacing its predefined linear trend and single-retest constraint with an RNN architecture to fully utilize multiple follow-ups while preserving Bayesian uncertainty quantification.
+- Constructed a unified likelihood that simultaneously handles MNAR/MAR missingness and left-censoring in Alzheimer's longitudinal data through RNN hidden states that capture temporal dependence.
+- Implemented Bayesian inference, specifically variational inference, enabling the RNN to inherently model incomplete data while maintaining uncertainty quantification and computational efficiency.
+- Basic derivations completed, with manuscript preparation in progress; to be presented as a poster at Brown in April 2026
 
-### A Bayesian Cognitive Change Method for MNAR Longitudinal Data
+### A Bayesian Cognitive Change Method for Censored Longitudinal Data
 **Advisor:** Dr. Ani Eloyan  
-**Duration:** 01/25 – Present
+**Duration:** 01/25 – 07/25
 
-- Designed simulation study & R Shiny App that evaluate SRB method underestimates cognitive change in Severe dementia whose follow-ups censored at floor of NACC test battery in Longitudinal EOAD Study (LEADs)
-- Developed SRB-extended method by introducing Bayesian Inference in treating missingness as random variable through a selection model-based likelihood.
-- Realized the proposed method through MCMC (HM algorithm), with R stan code developed in supplement materials
-- Designed simulation study & Applied in LEADs Data that demonstrate the proposed method reduce the underestimation while preserved the interpretability aspect of the SRB index and offered credible intervals for uncertainty quantified
-- Resulted in a manuscript under submission to "Alzheimer's & Dementia Journal" and presentations at three conferences.
+- Designed simulation study and an R Shiny App to show that SRB method underestimates cognitive change in Severe dementia whose follow-ups are left-censored at floor of NACC test battery in Longitudinal EOAD Study (LEADs)
+- Extended the SRB method by introducing Bayesian Inference that models censored follow-ups as random variables under a censored (Tobit-type) likelihood, realized through the MCMC (Hastings-Metropolis) implemented in R Stan.
+- Conducted simulation and real-data analyses demonstrating the proposed method reduce the underestimation while preserving the interpretability aspect of the SRB index and providing credible intervals for uncertainty quantification.
+- Resulted in a manuscript under formatting and presentations at three conferences.
 
 ### Nonlinear Mixed Effect Model for Alzheimer's Disease Biomarker
 **Advisor:** Dr. Ani Eloyan  
@@ -46,7 +59,7 @@ listing:
 - Constructed a P-spline design matrix based on cubic B-spline basis function within mixed-effects framework to model the nonlinear increment of White Matter Hyperintensities (WMH) volume in longitudinal MRI data.
 
 ### Translational Medical Research Collaboration
-**Collaborator:** Dr. Dinara Ryspayeva, Dr. Attila Seyhan. Legorreta Cancer Center  
+**Collaborator:** Dr. Dinara Ryspayeva, Dr. Attila Seyhan, Dr. Wafik El-Deiry. Legorreta Cancer Center  
 **Duration:** 03/25 – 09/25
 
 - Led and conducted a full pipeline of statistical analyses for breast cancer miRNA biomarker discovery —including missing data imputation, survival data collection guidance, survival analysis.

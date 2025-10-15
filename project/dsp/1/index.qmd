@@ -1,0 +1,27 @@
+---
+title: "Simulation Study Shiny App (R)"
+author: "Kaizhong (Mike) Mu"
+date: 2025-03-01
+collection: project
+citation: true
+search: true
+lightbox: true
+image: 1.png
+---  
+
+## Shiny App
+
+<iframe src="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" 
+        width="100%" 
+        height="800px" 
+        style="border: 1px solid #ddd; border-radius: 8px;">
+    <p>Your browser does not support iframes. 
+       <a href="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" target="_blank">Open SRB Simulation App</a>
+    </p>
+</iframe>
+
+**SRB Simulation Study**: This Shiny App is designed to show the simulation study results for my second research project under the mentorship of [Dr. Ani Eloyan](https://vivo.brown.edu/display/aeloyan). Our simulation involves multiple parameters (e.g., rate of decline, baseline severity, sample size). Static plots can only capture a few pre-selected scenarios, failing to show the full picture. So, I developed an interactive Shiny app to explore any combination of parameters in real-time.
+
+**Project Details**: The detail could check in [A Bayesian Cognitive Change Method for Censored Longitudinal Data](../../../research.html#a-bayesian-cognitive-change-method-for-censored-longitudinal-data).
+
+[Direct Link to App](https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/){target="_blank"}

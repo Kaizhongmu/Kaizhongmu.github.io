@@ -1,29 +1,29 @@
 ---
-title: "AI & Statistics Integration" 
+title: "AI + Statistics" 
 categories: [Bayesian Inference, Sampling, MCMC, Theoretical Machine Learning]
-author: 
-  - Kaizhong (Mike) Mu
-date: "10/14/2025"
+author: ""
+date: ""
 image: ai.png
 citation: true
 ---  
 
-## Research Philosophy
+## Interest Keywords
 
-I'm eager to combine AI/ML with the soul of statistics to tackle the growing complexity of medical data and to create interpretable, practical methods for clinical use.
-
-This interest is rooted in my undergraduate study of Statistics at the University of California, Davis. Its curriculum is thoughtfully designed to cultivate the next generation of statisticians—it not only builds a strong foundation in statistical theory but also introduces modern data science techniques. Within this open, inclusive, and collaborative academic community, I gradually shaped my own voice in statistics—grounded in rigor, yet open to innovation.
-
-## I believe the future lies in integration of AI and Statistics:
-
-### AI needs Stats
-When decisions affect human lives, it's not enough for a model to perform well — its internal logic must be understood, scrutinized, and justified. AI's black-box nature poses challenges in clinical settings. Statistics helps bridge that gap — not just by offering rigor, but by grounding models in interpretability and meaning.
-
-### Stats needs AI
-Statistics shouldn't remain isolated. While understanding variation, mechanisms, causality, and ensuring reproducibility remain core goals, AI's strength in modeling complex patterns from high-dimensional data is worth integrating.
+Bayesian Neural Networks, Interpretable AI, LLM, Statistical Machine Learning
 
 ## Related Experience
 
-- **Health Data Science Fellowship**: Applying LLM to free text classification in clinical trial data
-- **Research Project**: An inherent Bayesian RNN Method for MNAR longitudinal Data
+- **Health Data Science Fellowship**: Applying LLM to free text classification in clinical text data
+- **Research Project**: An Bayesian-based RNN Method for MNAR/MAR + left-censored longitudinal
+- **Research Project**: Graph-Based Change-Point Detection Method for High-Dimensional Network Data
+- **Workshop**: AI workshop NYC 2025
 - **Blog**: How AI (CNN) threatens the doctors?
+
+## Related Story
+
+- **2020**: Majored in statistics; began 50% Stats + 50% DS training at UC Davis.
+- **2021**: Completed 1st DS project with Mingyu Zhu, a friendship started from it
+- **2022**: Involved first ML+Stats research project mentored by Dr. Hao Chen
+- **2023**: Conducted first independent research about ML mentored by Dr. Colin Cameron
+- **2024**: Inward sharpening
+- **2025**: Led Bayesian-based RNN method development mentored by Dr. Ani Eloyan.

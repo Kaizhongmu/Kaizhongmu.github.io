@@ -1,5 +1,5 @@
 ---
-title: Course&Award
+title: Course
 excerpt: My Course & Award
 date: 2025-10-14
 published-title: Course & Award last updated
@@ -8,7 +8,7 @@ published-title: Course & Award last updated
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"
      crossorigin="anonymous"></script>
 
-## Course & Award
+## Course
 
 - [Bayesian Inference](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201420&subj_code_in=PHP&crse_numb_in=2530)
 - [Analysis of Lifetime Data](https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201510&subj_code_in=PHP&crse_numb_in=2602)
@@ -34,3 +34,25 @@ published-title: Course & Award last updated
 - [Data & Web Technologies for Data Analysis (Python)](https://statistics.ucdavis.edu/expanded-descriptions/141B)
 - [Python Programming](https://cs.ucdavis.edu/schedules-classes/ecs-032a-introduction-programming)
 - [MATLAB Programming](https://catalog.ucdavis.edu/courses-subject-code/eng/)
+
+## Award & Honor
+
+### Health Data Science Summer Fellowship
+**Brown University** — Fellow & RA (Award: $5,000)
+
+Selected to attend health data science training and conduct research under an assigned PI.
+
+### Scholarship
+**School of Public Health, Brown University** — (Award: $9,941)
+
+20% tuition reduction
+
+### Dean's Honor List
+**University of California, Davis** — 2021, 2022, 2023
+
+Top academic performance student
+
+### Boyd Harshburger Travel Award Winner
+**SROCS Conference** — 2025
+
+The abstract and poster presentation of the project win prize in Southern Regional Council On Statistics (SRCOS)

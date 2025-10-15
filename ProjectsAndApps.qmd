@@ -1,0 +1,21 @@
+---
+listing: 
+  - id: ds-projects
+    contents: "/project/dsp"
+    type: grid
+    sort: "date desc"
+    date-format: full
+    fields: [image, date, title]
+    sort-ui: true
+    feed: true
+---   
+
+## Projects & Apps
+
+::: {#ds-projects}  
+:::  
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878992848042528"
+     crossorigin="anonymous"></script>
+
