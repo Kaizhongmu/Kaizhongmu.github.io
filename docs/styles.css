@@ -1,0 +1,349 @@
+/* css styles */
+
+/* 增加页面内容宽度，让布局更宽更自适应 */
+.quarto-title-block {
+  max-width: 100% !important;
+}
+
+.page-columns .content {
+  max-width: 1680px !important;
+  margin: 0 auto;
+}
+
+.page-columns .content-inner {
+  max-width: 1680px !important;
+}
+
+.page-columns .page-columns-content {
+  max-width: 1680px !important;
+}
+
+/* 首页特殊布局优化 */
+.page-columns .page-columns-content .columns {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px;
+}
+
+/* 响应式设计 - 大屏幕 */
+@media screen and (min-width: 1920px) {
+  .page-columns .content,
+  .page-columns .content-inner,
+  .page-columns .page-columns-content {
+    max-width: 1920px !important;
+  }
+}
+
+/* 响应式设计 - 中等屏幕 */
+@media screen and (max-width: 1200px) {
+  .page-columns .content,
+  .page-columns .content-inner,
+  .page-columns .page-columns-content {
+    max-width: 100% !important;
+    padding: 0 20px;
+  }
+}
+
+/* 响应式设计 - 小屏幕时变成上下结构 */
+@media screen and (max-width: 768px) {
+  .columns {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  
+  .column[style*="width: 37%"],
+  .column[style*="width: 63%"] {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
+}
+
+.oval-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #CEB888;
+    object-fit: cover;
+  }
+
+/* 优化列布局 - 保持左右并排 */
+.columns {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch;
+  min-height: 600px;
+  gap: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 强制移除所有列间距 */
+.columns > .column {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 针对Quarto的列间距覆盖 */
+.columns .column:first-child {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.columns .column:last-child {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 左侧个人信息区域 - 保持原始样式，仅扩宽 */
+.column[style*="width: 37%"] {
+  flex: 0 0 37%;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 右侧内容区域 - 保持原始样式，仅扩宽 */
+.column[style*="width: 63%"] {
+  flex: 0 0 63%;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+  .sidebar-item {
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  .social-sharing {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-sharing img {
+  width: 32px;
+  height: 32px;
+}
+
+/* New style for the navigation bar */
+.navbar {
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Stick to the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+}
+
+/* Adjust styles for content to avoid overlap with fixed navbar */
+.content {
+  margin-top: 60px; /* Adjust based on the height of your navbar */
+  /* Other styles for your content */
+}
+
+.sidebar {
+  /* Adjust the sidebar positioning and margins */
+  top: 1;
+  margin-top: 110px; /* Adjust based on your navbar's height */
+  width: 250px; /* Adjust as needed */
+}
+
+
+
+.share-buttons {
+  display: flex;
+  align-items: left;
+}
+.share-buttons > div, .share-buttons > a {
+  margin-right: 25px; /* Adjust the value as needed */
+}
+
+pre {
+  background-color: #2e2e2e !important;
+  color: #ffffff !important; /* This will ensure both the background and the text color fit the dark theme */
+}
+
+.cell-output {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+
+.cv-download {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007BFF; /* Bootstrap Blue */
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cv-download:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Centering the Button */
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* PDF Viewer Styles - Override Quarto's width restrictions */
+.pdf-viewer-container {
+  width: 60vw !important; /* Use viewport width instead of percentage */
+  margin: 0 auto !important;
+  max-width: none !important; /* Remove max-width restrictions */
+  position: relative;
+  z-index: 10;
+}
+
+.pdf-viewer-container iframe {
+  width: 100% !important;
+  height: 80vh !important; /* Use viewport height */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-height: 600px;
+}
+
+/* Override Quarto's content width restrictions for CV page */
+body:has(.pdf-viewer-container) .page-columns .content,
+body:has(.pdf-viewer-container) .page-columns .content-inner,
+body:has(.pdf-viewer-container) .page-columns .page-columns-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Force full width for CV page content */
+.cv-page .page-columns .content,
+.cv-page .page-columns .content-inner,
+.cv-page .page-columns .page-columns-content,
+.cv-page .quarto-title-block {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px !important;
+}
+
+/* Ensure title appears above PDF viewer */
+.cv-page .quarto-title-block {
+  margin-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.cv-page .quarto-title-block .quarto-title-meta {
+  margin-bottom: 20px !important;
+}
+
+/* Responsive PDF Viewer */
+@media screen and (max-width: 768px) {
+  .pdf-viewer-container {
+    width: 95vw !important;
+    margin: 0 auto !important;
+  }
+  
+  .pdf-viewer-container iframe {
+    height: 70vh !important;
+    min-height: 500px;
+  }
+}
+
+
+.arxiv-button, .mdpi-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust to control button size */
+  height: 50px;
+  padding: 5px; /* Reduce padding to remove white spaces */
+  border: 2px solid #f4f4f4; /* ArXiv color */
+  border-radius: 8px; /* Rounded corners */
+  transition: all 0.3s ease-in-out;
+  background-color: #f4f4f4; /* White background */
+}
+
+
+.pdf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust to control button size */
+  height: auto;
+  padding: 5px; /* Reduce padding to remove white spaces */
+  border: 2px solid #f4f4f4; /* ArXiv color */
+  border-radius: 8px; /* Rounded corners */
+  transition: all 0.3s ease-in-out;
+  background-color: #f4f4f4; /* White background */
+}
+
+.arxiv-button:hover, .pdf-button:hover, .mdpi-button:hover{
+  background-color: #f8f8f8; /* Light gray on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.arxiv-button img, .mdpi-button img {
+  width: 100%; /* Makes the image span the full button */
+  height: 100%;
+  object-fit: contain; /* Ensures image fits inside without distortion */
+  border-radius: 8px; /* Soft rounding for images */
+}
+
+
+.pdf-button img {
+  width: 100%; /* Makes the image span the full button */
+  height: 100%;
+  object-fit: contain; /* Ensures image fits inside without distortion */
+  border-radius: 3px; /* Soft rounding for images */
+}
+
+
+@media screen and (max-width: 768px) { /* Apply styles for screens smaller than 768px */
+    
+  /* Make columns stack instead of staying side by side */
+  .columns {
+      display: flex;
+      flex-direction: column; /* Stack elements */
+      align-items: center; /* Center-align content */
+      text-align: center; /* Center text */
+  }
+
+  .column {
+      width: 100% !important; /* Make each column take full width */
+  }
+
+  /* Adjust profile image size for small screens */
+  .oval-image {
+      width: 140px; /* Reduce size for mobile */
+      height: 171px;
+      margin-top: 10px; /* Reduce top margin */
+  }
+
+  /* Reduce padding and font size */
+  .cv-download, .arxiv-button, .pdf-button {
+      width: 20%; /* Make buttons responsive */
+      max-width: 200px; /* Limit width */
+  }
+
+  .cv-download, .pdf-button, .arxiv-button, .mdpi-button {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  /* Make sure images inside buttons are resized properly */
+  .arxiv-button img, .pdf-button img {
+      width: 80%; /* Make images fit inside button */
+      height: auto;
+  }
+
+  /* Reduce margins to prevent overlapping */
+  .text-center {
+      margin-top: 10px;
+  }
+}

@@ -24,9 +24,9 @@ image: 2.png
 
 The app requires three data files:
 
-1. **[Original Data](original_data.csv)**
-2. **[Human-Filled Data](human_filled_data.csv)**
-3. **[GPT-Filled Data](gpt_filled_data.csv)**
+1. **[Original Data](Original Data.xlsx)**
+2. **[Human-Filled Data](Human-filled Data.xlsx)**
+3. **[GPT-Filled Data](GPT-filled Data.csv)**
 
 ## Shiny App Readme
 
