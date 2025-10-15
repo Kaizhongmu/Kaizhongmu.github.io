@@ -1,11 +1,9 @@
 [
   {
-    "listing": "/research.html",
+    "listing": "/ProjectsAndApps.html",
     "items": [
-      "/research/ai/index.html",
-      "/research/longitudinal/index.html",
-      "/research/graph_theory/index.html",
-      "/research/MNAR/index.html"
+      "/project/dsp/2/index.html",
+      "/project/dsp/1/index.html"
     ]
   },
   {
@@ -137,25 +135,12 @@
     ]
   },
   {
-    "listing": "/portfolio.html",
+    "listing": "/research.html",
     "items": [
-      "/portfolio/dsp/autoloan/index.html",
-      "/portfolio/dsp/nlp-sales/index.html",
-      "/portfolio/dsp/medicalcost/index.html",
-      "/portfolio/dsp/dp-nlp/index.html",
-      "/portfolio/dsp/lendingclub/index.html",
-      "/portfolio/dsp/ecommerce/index.html",
-      "/portfolio/dsp/titanic/index.html",
-      "/portfolio/spd/holmc/index.html",
-      "/portfolio/spd/webapp/index.html",
-      "/portfolio/spd/desgld/index.html",
-      "/teaching/sp25.html",
-      "/teaching/sp24.html",
-      "/teaching/fall23.html",
-      "/teaching/sp23.html",
-      "/teaching/fall22.html",
-      "/teaching/fall21.html",
-      "/teaching/f18-f21.html"
+      "/research/ai/index.html",
+      "/research/longitudinal/index.html",
+      "/research/graph_theory/index.html",
+      "/research/MNAR/index.html"
     ]
   }
 ]

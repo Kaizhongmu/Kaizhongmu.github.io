@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Kaizhong (Mike) Mu</title>
+<link>https://kaizhongmu.github.io/ProjectsAndApps.html</link>
+<atom:link href="https://kaizhongmu.github.io/ProjectsAndApps.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Fri, 01 Aug 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>LLM text classification Shiny App (R)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="shiny-app" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-app">Shiny App</h2>
+<iframe src="https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support iframes. <a href="https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/" target="_blank">Open LLM Text Classification App</a>
+</p>
+</iframe>
+</section>
+<section id="data-files" class="level2">
+<h2 class="anchored" data-anchor-id="data-files">Data Files</h2>
+<p>The app requires three data files:</p>
+<ol type="1">
+<li><strong><a href="original_data.csv">Original Data</a></strong></li>
+<li><strong><a href="human_filled_data.csv">Human-Filled Data</a></strong></li>
+<li><strong><a href="gpt_filled_data.csv">GPT-Filled Data</a></strong></li>
+</ol>
+</section>
+<section id="shiny-app-readme" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-app-readme">Shiny App Readme</h2>
+<p>The goal of this shiny app is to automatically report the comparison of AI vs Human performance in text classification for Private Equity (in Comparison: Human vs.&nbsp;GPT tab) and report the exploratory data analysis (in EDA: Human-filled Dataset tab).</p>
+<p>This will enable you to no longer need to repeatedly write code/reports when trying various LLM models with human comparisons in the future. All you need to do is input three datasets: “Original Data” (100 entries randomly selected from the original dataset), “Human-Filled Data” (humans text classification), and “GPT-Filled Data” (AI text classification given prompts)</p>
+</section>
+<section id="presentation" class="level2">
+<h2 class="anchored" data-anchor-id="presentation">Presentation</h2>
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://kaizhongmu.github.io/project/dsp/2/presentation.pptx" width="100%" height="600px" frameborder="0">
+</iframe>
+</section>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>The shiny app is designed to provide visualization for the health data science summer fellowship projects, supervised by <a href="https://vivo.brown.edu/display/abilinsk">Dr.&nbsp;Alyssa Bilinski</a>. You could check the details of project from the presentation slides.</p>
+<p><a href="https://brown-biostatistics-mikemu.shinyapps.io/automatic_analysis/" target="_blank">Direct Link to App</a></p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2025,
+  author = {(Mike) Mu, Kaizhong},
+  title = {LLM Text Classification {Shiny} {App} {(R)}},
+  date = {2025-08-01},
+  url = {https://kaizhongmu.github.io/project/dsp/2/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2025" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2025. <span>“LLM Text Classification Shiny App
+(R).”</span> August 1, 2025. <a href="https://kaizhongmu.github.io/project/dsp/2/">https://kaizhongmu.github.io/project/dsp/2/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/2/</guid>
+  <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/2/2.png" medium="image" type="image/png" height="91" width="144"/>
+</item>
+<item>
+  <title>Simulation Study Shiny App (R)</title>
+  <dc:creator>Kaizhong (Mike) Mu</dc:creator>
+  <link>https://kaizhongmu.github.io/project/dsp/1/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="shiny-app" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-app">Shiny App</h2>
+<iframe src="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support iframes. <a href="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" target="_blank">Open SRB Simulation App</a>
+</p>
+</iframe>
+<p><strong>SRB Simulation Study</strong>: This Shiny App is designed to show the simulation study results for my second research project under the mentorship of <a href="https://vivo.brown.edu/display/aeloyan">Dr.&nbsp;Ani Eloyan</a>. Our simulation involves multiple parameters (e.g., rate of decline, baseline severity, sample size). Static plots can only capture a few pre-selected scenarios, failing to show the full picture. So, I developed an interactive Shiny app to explore any combination of parameters in real-time.</p>
+<p><strong>Project Details</strong>: The detail could check in <a href="../../../research.html#a-bayesian-cognitive-change-method-for-censored-longitudinal-data">A Bayesian Cognitive Change Method for Censored Longitudinal Data</a>.</p>
+<p><a href="https://brown-biostatistics-mikemu.shinyapps.io/SRB_simulation/" target="_blank">Direct Link to App</a></p>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{(mike)_mu2025,
+  author = {(Mike) Mu, Kaizhong},
+  title = {Simulation {Study} {Shiny} {App} {(R)}},
+  date = {2025-03-01},
+  url = {https://kaizhongmu.github.io/project/dsp/1/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-(mike)_mu2025" class="csl-entry quarto-appendix-citeas">
+(Mike) Mu, Kaizhong. 2025. <span>“Simulation Study Shiny App
+(R).”</span> March 1, 2025. <a href="https://kaizhongmu.github.io/project/dsp/1/">https://kaizhongmu.github.io/project/dsp/1/</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://kaizhongmu.github.io/project/dsp/1/</guid>
+  <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://kaizhongmu.github.io/project/dsp/1/1.png" medium="image" type="image/png" height="113" width="144"/>
+</item>
+</channel>
+</rss>
