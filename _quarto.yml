@@ -56,7 +56,7 @@ website:
         href: https://youtube.com/@quanttube
         target: _blank
       - icon: envelope
-        href: mailto:rafiqfsu@gmail.com?subject&body
+        href: mailto:Kaizhong_mu@brown.edu?subject&body
         target: _blank
       
 
@@ -64,14 +64,7 @@ website:
   reader-mode: true
 
 
-  # Google stuffs
-  google-analytics: 
-    tracking-id: "G-Z5NP67GHFC"
-    anonymize-ip: true
-adsense: 
-  publisher-id: ca-pub-6878992848042528
 filters:
-  - adsense
   - quarto-version.lua
   
 format:
