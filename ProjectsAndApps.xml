@@ -237,6 +237,11 @@ Your browser does not support PDFs. <a href="R_final_readme.pdf" target="_blank"
 <section id="keywords" class="level2">
 <h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
 <p>NLP, interactive map, wordscloud</p>
+<iframe src="Final_Project_Group1.html" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support iframes. <a href="Final_Project_Group1.html" target="_blank">Open Project Report</a>
+</p>
+</iframe>
 </section>
 <section id="highlight" class="level2">
 <h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
@@ -280,10 +285,15 @@ Your browser does not support PDFs. <a href="R_final_readme.pdf" target="_blank"
 <section id="keywords" class="level2">
 <h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
 <p>PCA, Hierarchical Clustering, Unsupervised Learning, Data Visualization, Variable Selection, Automated program.</p>
+<iframe src="STA_141A_Final_Project.pdf" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;">
+<p>
+Your browser does not support PDFs. <a href="STA_141A_Final_Project.pdf" target="_blank">Download Project Report</a>
+</p>
+</iframe>
 </section>
 <section id="highlight" class="level2">
 <h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
-<p>I designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using supervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property.</p>
+<p>I designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using unsupervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property.</p>
 
 
 <!-- -->
