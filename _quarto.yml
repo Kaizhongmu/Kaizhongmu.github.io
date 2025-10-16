@@ -49,17 +49,15 @@ website:
       - text: "License"
         href: license.txt
     right: 
-      - icon: twitter 
-        href: https://twitter.com/rafiqr35 
-        target: _blank
-      - icon: youtube
-        href: https://youtube.com/@quanttube
-        target: _blank
+      # - icon: twitter 
+      #   href: https://twitter.com/rafiqr35 
+      #   target: _blank
+      # - icon: youtube
+      #   href: https://youtube.com/@quanttube
+      #   target: _blank
       - icon: envelope
         href: mailto:Kaizhong_mu@brown.edu?subject&body
         target: _blank
-      
-
     border: true
   reader-mode: true
 

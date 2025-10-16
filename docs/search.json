@@ -865,14 +865,14 @@
     "href": "Life.html",
     "title": "Life",
     "section": "",
-    "text": "After graduating with my bachelor’s degree, I embarked on a solo journey across the United States from the West Coast to the East Coast. I traversed 19 states, winding through the Sierra Nevada mountains, rolling past Texas oil fields, and enjoying sun-kissed beaches of Florida. On one remarkable day, I experienced the changing of all four seasons.\n\n\n\nI love sailing—thriving in the exhilaration of sudden storms at sea, yet equally cherishing the quiet moments on calm waters, reflecting on life. And sailing is a team sport, built on trust and coordination, where every crew member matters—this is also why I like it.\n\n\n\nI once cycled with my friend all the way from Tianjin to Beijing, China, embracing the challenge and freedom of the journey. Believing that cycling should not be limited to those who can afford expensive equipment, I co-founded the Tianjin United Cycling Club (UCST) in high school, bringing together students from 13 schools to share and experience the joy of cycling."
+    "text": "Road Trip Photo\n\n\nAfter graduating with my bachelor’s degree, I embarked on a solo journey across the United States from the West Coast to the East Coast. I traversed 19 states, winding through the Sierra Nevada mountains, rolling past Texas oil fields, and enjoying sun-kissed beaches of Florida. On one remarkable day, I experienced the changing of all four seasons.\n\n\n\n\n\n\nSailing Photo\n\n\nI love sailing—thriving in the exhilaration of sudden storms at sea, yet equally cherishing the quiet moments on calm waters, reflecting on life. And sailing is a team sport, built on trust and coordination, where every crew member matters—this is also why I like it.\n\n\n\n\n\n\nCycling Photo\n\n\nI once cycled with my friend all the way from Tianjin to Beijing, China, embracing the challenge and freedom of the journey. Believing that cycling should not be limited to those who can afford expensive equipment, I co-founded the Tianjin United Cycling Club (UCST) in high school, bringing together students from 13 schools to share and experience the joy of cycling."
   },
   {
     "objectID": "Life.html#life",
     "href": "Life.html#life",
     "title": "Life",
     "section": "",
-    "text": "After graduating with my bachelor’s degree, I embarked on a solo journey across the United States from the West Coast to the East Coast. I traversed 19 states, winding through the Sierra Nevada mountains, rolling past Texas oil fields, and enjoying sun-kissed beaches of Florida. On one remarkable day, I experienced the changing of all four seasons.\n\n\n\nI love sailing—thriving in the exhilaration of sudden storms at sea, yet equally cherishing the quiet moments on calm waters, reflecting on life. And sailing is a team sport, built on trust and coordination, where every crew member matters—this is also why I like it.\n\n\n\nI once cycled with my friend all the way from Tianjin to Beijing, China, embracing the challenge and freedom of the journey. Believing that cycling should not be limited to those who can afford expensive equipment, I co-founded the Tianjin United Cycling Club (UCST) in high school, bringing together students from 13 schools to share and experience the joy of cycling."
+    "text": "Road Trip Photo\n\n\nAfter graduating with my bachelor’s degree, I embarked on a solo journey across the United States from the West Coast to the East Coast. I traversed 19 states, winding through the Sierra Nevada mountains, rolling past Texas oil fields, and enjoying sun-kissed beaches of Florida. On one remarkable day, I experienced the changing of all four seasons.\n\n\n\n\n\n\nSailing Photo\n\n\nI love sailing—thriving in the exhilaration of sudden storms at sea, yet equally cherishing the quiet moments on calm waters, reflecting on life. And sailing is a team sport, built on trust and coordination, where every crew member matters—this is also why I like it.\n\n\n\n\n\n\nCycling Photo\n\n\nI once cycled with my friend all the way from Tianjin to Beijing, China, embracing the challenge and freedom of the journey. Believing that cycling should not be limited to those who can afford expensive equipment, I co-founded the Tianjin United Cycling Club (UCST) in high school, bringing together students from 13 schools to share and experience the joy of cycling."
   },
   {
     "objectID": "research.html#research-philosophy",
@@ -1110,7 +1110,7 @@
     "href": "research.html#publications-manuscripts",
     "title": "",
     "section": "Publications & Manuscripts",
-    "text": "Publications & Manuscripts\n\nA Reliable Change Estimation Method for Severely Cognitively Impaired Populations\nAuthors: Mu, K., Zhang, D., & Eloyan, A.\nStatus: Manuscript in preparation for submission to Alzheimer’s & Dementia\nRole: First and corresponding author; draft completed July 2025, currently undergoing formatting.\n\n\nLongitudinal miRNA Profiles in Breast Cancer Tissue and Plasma: Associations with Hormone Receptors, Response, and Survival\nAuthors: Ryspayeva, D., Seyhan, A. A., Mu, K., Liu, M., Purcell, C., MacDonald, W. J., Halytskiy, V., Drevytska, T., Inomistova, M., Khranovska, N., Potorocha, O., Taran, L., Sumkina, O., Smolanka, I. Sr., & El-Deiry, W. S.\nJournal: World Journal of Clinical Oncology\nStatus: Manuscript submitted October 2025 (Manuscript No. 115287)\nRole: Third author."
+    "text": "Publications & Manuscripts\nMu, K., Zhang, D., & Eloyan, A. A Reliable Change Estimation Method for Severely Cognitively Impaired Populations. Manuscript in preparation for submission to Alzheimer’s & Dementia. 1st author; draft completed July 2025, currently undergoing formatting.\nRyspayeva, D., Seyhan, A. A., Mu, K., Liu, M., Purcell, C., MacDonald, W. J., Halytskiy, V., Drevytska, T., Inomistova, M., Khranovska, N., Potorocha, O., Taran, L., Sumkina, O., Smolanka, I. Sr., & El-Deiry, W. S. Longitudinal miRNA Profiles in Breast Cancer Tissue and Plasma: Associations with Hormone Receptors, Response, and Survival. World Journal of Clinical Oncology. Manuscript submitted October 2025 (Manuscript No. 115287). 3rd & 4rd author."
   },
   {
     "objectID": "research.html#current-past-research",
@@ -1285,7 +1285,7 @@
     "href": "project/dsp/5/index.html#keywords",
     "title": "Gun Violence Visualization Project (Python)",
     "section": "Keywords",
-    "text": "Keywords\nNLP, interactive map, wordscloud"
+    "text": "Keywords\nNLP, interactive map, wordscloud\n\n&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"Final_Project_Group1.html\" target=\"_blank\"&gt;Open Project Report&lt;/a&gt;\n&lt;/p&gt;"
   },
   {
     "objectID": "project/dsp/5/index.html#highlight",
@@ -1306,14 +1306,14 @@
     "href": "project/dsp/4/index.html#keywords",
     "title": "Rental Clustering & Price Prediction Project (R)",
     "section": "Keywords",
-    "text": "Keywords\nPCA, Hierarchical Clustering, Unsupervised Learning, Data Visualization, Variable Selection, Automated program."
+    "text": "Keywords\nPCA, Hierarchical Clustering, Unsupervised Learning, Data Visualization, Variable Selection, Automated program.\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"STA_141A_Final_Project.pdf\" target=\"_blank\"&gt;Download Project Report&lt;/a&gt;\n&lt;/p&gt;"
   },
   {
     "objectID": "project/dsp/4/index.html#highlight",
     "href": "project/dsp/4/index.html#highlight",
     "title": "Rental Clustering & Price Prediction Project (R)",
     "section": "Highlight",
-    "text": "Highlight\nI designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using supervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property."
+    "text": "Highlight\nI designed an automated R program that evaluates neighborhood quality around a user’s desired lodging location using unsupervised learning techniques. The motivation came from a personal experience: I once booked a vacation rental online that looked perfect in photos, but upon arrival, I realized I had paid four-star hotel prices for a place in a poorly maintained and unsafe neighborhood. This program aims to help users avoid similar situations by providing a quality rating based on the approximate location of a property."
   },
   {
     "objectID": "project/dsp/6/index.html",
@@ -1335,5 +1335,26 @@
     "title": "Battleship Game Project (Python)",
     "section": "Highlight",
     "text": "Highlight\nFor our Python project, we designed a simplified version of the classic Battleship game. In this game, each player has a grid where ships of varying lengths are placed, and players take turns guessing coordinates to try to hit and sink their opponent’s ships. Hits and misses are tracked, and the game continues until one player sinks all of the opponent’s ships. This project showcases our ability to implement game logic, user interaction, and basic grid-based algorithms in Python."
+  },
+  {
+    "objectID": "project/dsp/5/index.html#project-report",
+    "href": "project/dsp/5/index.html#project-report",
+    "title": "Gun Violence Visualization Project (Python)",
+    "section": "Project Report",
+    "text": "Project Report\n\n&lt;p&gt;\nYour browser does not support iframes. &lt;a href=\"Final_Project_Group1.html\" target=\"_blank\"&gt;Open Project Report&lt;/a&gt;\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "CourseAndAward.html#teaching",
+    "href": "CourseAndAward.html#teaching",
+    "title": "Course",
+    "section": "Teaching",
+    "text": "Teaching\n\nMaster Teaching Assistant\n08/25 – Present\nHold office hours & Grade for “Probability & Statistical Inference” course at Biostatistics Department, Brown University"
+  },
+  {
+    "objectID": "project/dsp/4/index.html#project-report",
+    "href": "project/dsp/4/index.html#project-report",
+    "title": "Rental Clustering & Price Prediction Project (R)",
+    "section": "Project Report",
+    "text": "Project Report\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"STA_141A_Final_Project.pdf\" target=\"_blank\"&gt;Download Project Report&lt;/a&gt;\n&lt;/p&gt;"
   }
 ]
